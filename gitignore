@@ -1,0 +1,38 @@
+# Kaleiora Agentic Marketing - .gitignore
+
+# Sensitive config (API keys, secrets)
+config/api_keys.json
+
+# Temporary / generated files
+__pycache__/
+*.pyc
+*.pyo
+.tmp/
+*.log
+
+# Local environment
+.env
+.vscode/
+.idea/
+
+# Creative output artifacts (user-generated content)
+creative_output/
+lead_previews/
+processed_intakes/
+
+# Logs
+logs/
+
+# Archive
+archive/
+
+# Client index (generated)
+client_index/
+
+# Intake processing
+processed_intakes/
+intake_*.json
+
+# OS files
+.DS_Store
+Thumbs.db
