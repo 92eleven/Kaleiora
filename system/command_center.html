@@ -1,697 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaleiora Command Center</title>
-    <style>
-        :root {
-            --bg-color: #0a0a0b;
-            --card-bg: #141417;
-            --border-color: #2a2a30;
-            --text-primary: #e0e0e0;
-            --text-secondary: #909090;
-            --accent: #00f2ff;
-            --success: #00ff88;
-            --warning: #ffcc00;
-            --danger: #ff0055;
-            --font-mono: 'Fira Code', 'Courier New', monospace;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            font-family: var(--font-mono);
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        header {
-            padding: 1rem 2rem;
-            border-bottom: 1px solid var(--border-color);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: linear-gradient(90deg, rgba(0, 242, 255, 0.05) 0%, transparent 100%);
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
-        }
-
-        .agency-status {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .status-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: var(--success);
-            box-shadow: 0 0 10px var(--success);
-        }
-
-        .status-text {
-            color: var(--success);
-            font-weight: bold;
-        }
-
-        main {
-            display: grid;
-            grid-template-columns: 250px 1fr 300px;
-            grid-template-rows: 1fr 1fr 1fr;
-            gap: 1rem;
-            padding: 1rem;
-            flex: 1;
-            overflow: hidden;
-        }
-
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-        }
-
-        .card-header {
-            padding: 0.75rem 1rem;
-            border-bottom: 1px solid var(--border-color);
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--text-secondary);
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .card-body {
-            padding: 1rem;
-            overflow-y: auto;
-            flex: 1;
-        }
-
-        /* Project Status Board */
-        #project-board {
-            grid-column: 2;
-            grid-row: 1 / span 2;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th {
-            text-align: left;
-            padding: 0.5rem;
-            color: var(--text-secondary);
-            font-size: 0.75rem;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        td {
-            padding: 0.75rem 0.5rem;
-            font-size: 0.85rem;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .status-tag {
-            padding: 2px 6px;
-            border-radius: 2px;
-            font-size: 0.7rem;
-            font-weight: bold;
-        }
-
-        .status-tag.active { background: rgba(0, 255, 136, 0.1); color: var(--success); border: 1px solid var(--success); }
-        .status-tag.review { background: rgba(255, 204, 0, 0.1); color: var(--warning); border: 1px solid var(--warning); }
-        .status-tag.blocked { background: rgba(255, 0, 85, 0.1); color: var(--danger); border: 1px solid var(--danger); }
-
-        /* Agent Status */
-        #agent-status {
-            grid-column: 1;
-            grid-row: 1 / span 3;
-        }
-
-        .agent-item {
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid #222;
-        }
-
-        .agent-name {
-            font-weight: bold;
-            font-size: 0.9rem;
-            margin-bottom: 0.25rem;
-        }
-
-        .agent-task {
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-        }
-
-        .agent-indicator {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            margin-right: 5px;
-        }
-
-        /* Performance & Health */
-        #metrics-health {
-            grid-column: 3;
-            grid-row: 2;
-        }
-
-        .metric-card {
-            text-align: center;
-            padding: 0.5rem;
-        }
-
-        .metric-value {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent);
-            margin: 0.25rem 0;
-        }
-
-        .metric-label {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-        }
-
-        .health-gauge {
-            width: 120px;
-            height: 60px;
-            margin: 0 auto;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .gauge-inner {
-            width: 120px;
-            height: 120px;
-            border: 10px solid var(--border-color);
-            border-bottom-color: transparent;
-            border-left-color: transparent;
-            border-radius: 50%;
-            transform: rotate(-45deg);
-        }
-
-        .gauge-fill {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 120px;
-            height: 120px;
-            border: 10px solid var(--accent);
-            border-bottom-color: transparent;
-            border-left-color: transparent;
-            border-radius: 50%;
-            transform: rotate(45deg); /* Adjusted by JS */
-            transition: transform 1s ease-out;
-        }
-
-        /* Red-Line Status */
-        #red-line-panel {
-            grid-column: 3;
-            grid-row: 1;
-            background: rgba(255, 0, 85, 0.05);
-            border-color: rgba(255, 0, 85, 0.3);
-        }
-
-        .red-line-title {
-            color: var(--danger);
-            font-weight: bold;
-            text-align: center;
-            margin-top: 0.5rem;
-            font-size: 0.8rem;
-        }
-
-        .red-line-status {
-            font-size: 1.2rem;
-            text-align: center;
-            margin: 0.5rem 0;
-            text-shadow: 0 0 10px rgba(255, 0, 85, 0.5);
-        }
-
-        /* Help Desk */
-        #help-desk {
-            grid-column: 3;
-            grid-row: 3;
-        }
-
-        /* Asset Previews */
-        #asset-previews {
-            grid-column: 2;
-            grid-row: 3;
-        }
-
-        /* Client Intake Form */
-        #intake-section {
-            padding: 2rem;
-            background: var(--card-bg);
-            border-top: 1px solid var(--border-color);
-            overflow-y: auto;
-            display: none; /* Toggle with JS */
-            position: absolute;
-            top: 10%;
-            left: 10%;
-            width: 80%;
-            height: 80%;
-            z-index: 100;
-            box-shadow: 0 0 50px rgba(0,0,0,0.8);
-        }
-
-        .form-group {
-            margin-bottom: 1rem;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 0.5rem;
-            color: var(--text-secondary);
-        }
-
-        input, textarea, select {
-            width: 100%;
-            background: var(--bg-color);
-            border: 1px solid var(--border-color);
-            padding: 0.75rem;
-            color: var(--text-primary);
-            font-family: var(--font-mono);
-        }
-
-        button {
-            background: var(--accent);
-            color: var(--bg-color);
-            border: none;
-            padding: 0.75rem 1.5rem;
-            font-weight: bold;
-            cursor: pointer;
-            text-transform: uppercase;
-        }
-
-        button:hover {
-            box-shadow: 0 0 15px var(--accent);
-        }
-
-        .close-btn {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: none;
-            color: var(--text-secondary);
-            font-size: 1.5rem;
-        }
-
-        /* Creative Asset Previews */
-        .asset-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-            gap: 10px;
-        }
-
-        .asset-thumb {
-            width: 100%;
-            aspect-ratio: 1;
-            background: #222;
-            border: 1px solid var(--border-color);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.6rem;
-            color: var(--text-secondary);
-        }
-
-        .nav-btn {
-            background: none;
-            border: 1px solid var(--accent);
-            color: var(--accent);
-            padding: 0.25rem 0.5rem;
-            font-size: 0.7rem;
-            margin-left: 10px;
-        }
-
-        /* Daily Digest Styling */
-        #digest-body h1, #digest-body h2, #digest-body h3 {
-            color: var(--accent);
-            margin: 0.5rem 0;
-            font-size: 0.9rem;
-        }
-        #digest-body ul {
-            margin-left: 1rem;
-            margin-bottom: 0.5rem;
-        }
-        #digest-body li {
-            margin-bottom: 0.25rem;
-        }
-        #digest-body blockquote {
-            border-left: 2px solid var(--accent);
-            padding-left: 0.5rem;
-            margin: 0.5rem 0;
-            font-style: italic;
-            color: var(--text-secondary);
-        }
-        #digest-body code {
-            background: #222;
-            padding: 1px 3px;
-            border-radius: 2px;
-            color: var(--success);
-        }
-
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaleiora Command Center</title>
+<style>
+:root{--bg:#0a0a0b;--card:#141417;--border:#2a2a30;--text:#e0e0e0;--muted:#909090;--accent:#00f2ff;--success:#00ff88;--warning:#ffcc00;--danger:#ff0055;--font:'Inter',sans-serif;--mono:'Fira Code','Courier New',monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex;flex-direction:column;height:100vh;overflow:hidden}
+header{padding:0.75rem 1.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,rgba(0,242,255,0.05),transparent)}
+.logo{font-size:1.2rem;font-weight:bold;color:var(--accent);text-transform:uppercase;letter-spacing:2px;text-shadow:0 0 10px rgba(0,242,255,0.5)}
+.status-row{display:flex;align-items:center;gap:15px;flex-wrap:wrap}
+.status-dot{width:12px;height:12px;border-radius:50%;background:var(--success);box-shadow:0 0 10px var(--success)}
+.status-text{font-weight:bold;font-size:0.85rem}
+#agency-status{font-size:1rem;font-weight:700;padding:4px 12px;border-radius:4px}
+main{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.75rem;padding:0.75rem;flex:1;overflow:auto}
+.card{background:var(--card);border:1px solid var(--border);border-radius:4px;display:flex;flex-direction:column;overflow:hidden}
+.card-header{padding:0.5rem 0.75rem;border-bottom:1px solid var(--border);font-size:0.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);display:flex;justify-content:space-between}
+.card-body{padding:0.5rem 0.75rem;overflow-y:auto;flex:1;font-size:0.75rem;line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:0.7rem}
+th{text-align:left;padding:0.3rem;color:var(--muted);border-bottom:1px solid var(--border)}
+td{padding:0.3rem;border-bottom:1px solid var(--border)}
+.badge{padding:2px 6px;border-radius:2px;font-size:0.6rem;font-weight:bold}
+.badge-green{background:rgba(0,255,136,0.1);color:var(--success);border:1px solid var(--success)}
+.badge-yellow{background:rgba(255,204,0,0.1);color:var(--warning);border:1px solid var(--warning)}
+.badge-red{background:rgba(255,0,85,0.1);color:var(--danger);border:1px solid var(--danger)}
+.badge-cyan{background:rgba(0,242,255,0.1);color:var(--accent);border:1px solid var(--accent)}
+.col-span-2{grid-column:span 2}
+.col-span-3{grid-column:span 3}
+.metric{text-align:center;padding:0.3rem}
+.metric-val{font-size:1.2rem;font-weight:bold;color:var(--accent)}
+.metric-lbl{font-size:0.6rem;color:var(--muted);text-transform:uppercase}
+pre{font-family:var(--mono);font-size:0.65rem;background:rgba(0,0,0,0.3);padding:0.5rem;border-radius:3px;border:1px solid var(--border);overflow-x:auto;line-height:1.4;white-space:pre-wrap}
+#global-status{font-size:1.5rem;font-weight:900;text-align:center;padding:0.5rem}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-    <header>
-        <div class="logo">Kaleiora Command Center</div>
-        <div class="agency-status">
-            <div class="status-dot" id="global-status-dot"></div>
-            <div class="status-text" id="global-status-text">OPTIMIZED</div>
-            <button class="nav-btn" onclick="toggleIntake()">+ New Client Intake</button>
-        </div>
-    </header>
+<header>
+<div class="logo">⬡ KALEIORA COMMAND CENTER</div>
+<div class="status-row">
+<div id="global-status" style="font-size:1rem;font-weight:700;padding:4px 12px;border-radius:4px;">OPTIMIZED</div>
+<div class="status-dot" id="global-status-dot"></div>
+<div class="status-text" id="global-status-text">OPTIMIZED</div>
+<span style="color:var(--muted);font-size:0.7rem;" id="last-update"></span>
+</div>
+</header>
+<main>
+<!-- Top Row: Agency Status + BHS -->
+<div class="card col-span-3">
+<div class="card-header">Agency Status <span id="status-badge" class="badge badge-green">OPTIMIZED</span></div>
+<div class="card-body" style="display:flex;gap:2rem;justify-content:center;flex-wrap:wrap;">
+<div class="metric"><div class="metric-val" id="bhs-main">95</div><div class="metric-lbl">Brand Health Score</div></div>
+<div class="metric"><div class="metric-val" id="roas-val">5.5x</div><div class="metric-lbl">ROAS</div></div>
+<div class="metric"><div class="metric-val" id="cac-val">$11.20</div><div class="metric-lbl">CAC</div></div>
+<div class="metric"><div class="metric-val" style="color:var(--success)" id="campaigns-active">0</div><div class="metric-lbl">Active Campaigns</div></div>
+<div class="metric"><div class="metric-val" style="color:var(--muted);font-size:0.9rem" id="redline-count">0</div><div class="metric-lbl">Red-Line Incidents</div></div>
+</div>
+</div>
 
-    <main>
-        <!-- Agent Status -->
-        <div class="card" id="agent-status">
-            <div class="card-header">Agent Network</div>
-            <div class="card-body" id="agent-list">
-                <!-- Populated by JS -->
-                <div class="agent-item">
-                    <div class="agent-name"><span class="agent-indicator" style="background: var(--success)"></span>Manager</div>
-                    <div class="agent-task">Monitoring Swarm Health</div>
-                </div>
-                <div class="agent-item">
-                    <div class="agent-name"><span class="agent-indicator" style="background: var(--accent)"></span>Developer</div>
-                    <div class="agent-task">Constructing Command Center</div>
-                </div>
-            </div>
-        </div>
+<!-- Quality Gate Panel -->
+<div class="card">
+<div class="card-header">🛡️ Quality Gate <span id="qg-badge" class="badge badge-green">ACTIVE</span></div>
+<div class="card-body" id="qg-panel">
+<div style="color:var(--muted);font-size:0.7rem;">Waiting for asset validation...</div>
+</div>
+</div>
 
-        <!-- Project Board -->
-        <div class="card" id="project-board">
-            <div class="card-header">
-                Active Projects
-                <span>Total: 3</span>
-            </div>
-            <div class="card-body">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Project</th>
-                            <th>Status</th>
-                            <th>Lead Agent</th>
-                            <th>Last Update</th>
-                        </tr>
-                    </thead>
-                    <tbody id="project-list">
-                        <!-- Populated by JS -->
-                        <tr>
-                            <td>System Architecture</td>
-                            <td><span class="status-tag active">ACTIVE</span></td>
-                            <td>Manager</td>
-                            <td>Just now</td>
-                        </tr>
-                        <tr>
-                            <td>Vector DB Indexing</td>
-                            <td><span class="status-tag review">IN PROGRESS</span></td>
-                            <td>Brand Custodian</td>
-                            <td>2m ago</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+<!-- Red-Line Log Panel -->
+<div class="card">
+<div class="card-header">🚨 Red-Line Log</div>
+<div class="card-body" id="redline-panel">
+<div style="color:var(--muted);font-size:0.7rem;">No incidents recorded.</div>
+</div>
+</div>
 
-        <!-- Red-Line Panel -->
-        <div class="card" id="red-line-panel">
-            <div class="card-header">Crisis Management</div>
-            <div class="card-body">
-                <div class="red-line-title">RED-LINE STATUS</div>
-                <div class="red-line-status" id="red-line-val">CLEAR</div>
-                <p style="font-size: 0.7rem; color: var(--text-secondary); text-align: center;">
-                    No critical failures detected. All systems within nominal range.
-                </p>
-            </div>
-        </div>
+<!-- Integration Status Panel -->
+<div class="card">
+<div class="card-header">🔌 Integration Status</div>
+<div class="card-body" id="integration-panel">
+<div style="color:var(--muted);font-size:0.7rem;">Loading...</div>
+</div>
+</div>
 
-        <!-- Metrics & Health -->
-        <div class="card" id="metrics-health">
-            <div class="card-header">Performance Analytics</div>
-            <div class="card-body" style="display: flex; justify-content: space-around; align-items: center;">
-                <div class="metric-card">
-                    <div class="metric-label">ROAS</div>
-                    <div class="metric-value">4.2x</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">Brand Health</div>
-                    <div class="health-gauge">
-                        <div class="gauge-inner"></div>
-                        <div class="gauge-fill" id="health-gauge-fill"></div>
-                    </div>
-                    <div class="metric-value" style="font-size: 1.2rem;" id="health-score-val">88%</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">CAC</div>
-                    <div class="metric-value">$12.40</div>
-                </div>
-            </div>
-        </div>
+<!-- Ideogram Generation Log -->
+<div class="card">
+<div class="card-header">🎨 Asset Generation Log</div>
+<div class="card-body" id="ideogram-panel">
+<div style="color:var(--muted);font-size:0.7rem;">No generations yet.</div>
+</div>
+</div>
 
-        <!-- Asset Previews -->
-        <div class="card" id="asset-previews">
-            <div class="card-header">Creative Asset Previews</div>
-            <div class="card-body">
-                <div class="asset-grid" id="asset-list">
-                    <!-- Populated by JS -->
-                </div>
-            </div>
-        </div>
+<!-- Cloudinary Composition Log -->
+<div class="card">
+<div class="card-header">🖼️ Cloudinary Compositions</div>
+<div class="card-body" id="cloudinary-panel">
+<div style="color:var(--muted);font-size:0.7rem;">No compositions yet.</div>
+</div>
+</div>
 
-        <!-- Right Bottom Column Container -->
-        <div style="display: flex; flex-direction: column; gap: 1rem; grid-column: 3; grid-row: 3;">
-            <!-- Daily Digest -->
-            <div class="card" id="daily-digest" style="flex: 1;">
-                <div class="card-header">Daily Performance Digest</div>
-                <div class="card-body" id="digest-body" style="font-size: 0.75rem; line-height: 1.4;">
-                    <div style="color: var(--text-secondary);">Waiting for Manager's 08:00 EST report...</div>
-                </div>
-            </div>
+<!-- Distribution Log (Make.com) -->
+<div class="card">
+<div class="card-header">📤 Distribution Log</div>
+<div class="card-body" id="distribution-panel">
+<div style="color:var(--muted);font-size:0.7rem;">No distributions yet.</div>
+</div>
+</div>
 
-            <!-- Help Desk (Small) -->
-            <div class="card" id="help-desk" style="height: 100px;">
-                <div class="card-header">Help Desk</div>
-                <div class="card-body" style="display: flex; justify-content: space-around; align-items: center; padding: 0.5rem;">
-                    <div class="metric-card">
-                        <div class="metric-label">Response</div>
-                        <div class="metric-value" style="font-size: 1rem;" id="resp-time-val">14m</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-label">Tickets</div>
-                        <div class="metric-value" style="font-size: 1rem;" id="tickets-val">2</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+<!-- Email Log (SendGrid) -->
+<div class="card">
+<div class="card-header">📧 Email Campaign Log</div>
+<div class="card-body" id="email-panel">
+<div style="color:var(--muted);font-size:0.7rem;">No emails sent yet.</div>
+</div>
+</div>
 
-    <div id="intake-section">
-                <button class="close-btn" onclick="toggleIntake()">×</button>
-                <h2 style="margin-bottom: 1.5rem; color: var(--accent);">⚡ Get Your Free Marketing Sneak Peek</h2>
-                <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 1.5rem;">
-                    Fill this out and we'll generate a personalized sample campaign for your brand — in seconds. No commitment.
-                </p>
-                <form id="client-intake-form">
-                    <div class="form-group">
-                        <label>Your Name / Company</label>
-                        <input type="text" name="client_name" placeholder="e.g. PureBloom Skincare" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Top 3 Competitors</label>
-                        <input type="text" name="competitors" placeholder="e.g. Brand A, Brand B, Brand C">
-                    </div>
-                    <div class="form-group">
-                        <label>Target Audience — Who are you trying to reach?</label>
-                        <textarea name="target_audience" rows="2" placeholder="e.g. Health-conscious women 25-45 who care about ingredients"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label>Biggest Marketing Pain Point Right Now</label>
-                        <select name="pain_point">
-                            <option value="">Select one...</option>
-                            <option value="brand_awareness">Brand Awareness — nobody knows us</option>
-                            <option value="social_media">Social Media — low engagement, no growth</option>
-                            <option value="content_creation">Content Creation — can't produce enough</option>
-                            <option value="conversions">Conversions — traffic but no sales</option>
-                            <option value="consistency">Brand Consistency — messaging is all over the place</option>
-                            <option value="roi">ROI — can't prove marketing is working</option>
-                        </select>
-                    </div>
-                    <div class="form-group" id="social-channel-group" style="display: none;">
-                        <label>What's your primary social channel?</label>
-                        <select name="social_channel">
-                            <option value="">Select one...</option>
-                            <option value="linkedin">LinkedIn</option>
-                            <option value="instagram">Instagram</option>
-                            <option value="tiktok">TikTok</option>
-                            <option value="facebook">Facebook</option>
-                            <option value="twitter">X / Twitter</option>
-                            <option value="youtube">YouTube</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>Brand Guidelines or Website (optional)</label>
-                        <textarea name="brand_guidelines" rows="2" placeholder="Paste a short description of your brand voice or a link to your site"></textarea>
-                    </div>
-                    <div style="display: flex; gap: 1rem; align-items: center;">
-                        <button type="submit">🚀 Generate My Sneak Peek</button>
-                        <span style="color: var(--text-secondary); font-size: 0.75rem;">Takes ~30 seconds • No commitment</span>
-                    </div>
-                </form>
-            </div>
+<!-- Campaign Status -->
+<div class="card">
+<div class="card-header">📋 Campaign Status</div>
+<div class="card-body" id="campaign-panel">
+<div style="color:var(--muted);font-size:0.7rem;">No active campaigns.</div>
+</div>
+</div>
+</main>
 
-    <script>
-        function toggleIntake() {
-            const section = document.getElementById('intake-section');
-            section.style.display = section.style.display === 'block' ? 'none' : 'block';
-        }
+<script>
+function updateDashboard() {
+fetch('dashboard_data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
+// Global status
+const statusEl=document.getElementById('global-status');
+const dot=document.getElementById('global-status-dot');
+const txt=document.getElementById('global-status-text');
+const badge=document.getElementById('status-badge');
+const gs=d.global_status||'OPTIMIZED';
+const isRed=gs==='RED-LINE-EMERGENCY'||gs==='RED-LINE';
+statusEl.textContent=gs;
+statusEl.style.color=isRed?'var(--danger)':'var(--success)';
+statusEl.style.background=isRed?'rgba(255,0,85,0.1)':'rgba(0,255,136,0.1)';
+statusEl.style.border=isRed?'1px solid var(--danger)':'1px solid var(--success)';
+dot.style.background=isRed?'var(--danger)':'var(--success)';
+dot.style.boxShadow=isRed?'0 0 10px var(--danger)':'0 0 10px var(--success)';
+txt.textContent=gs;
+badge.textContent=gs;
+badge.className='badge '+(isRed?'badge-red':'badge-green');
+document.getElementById('last-update').textContent='Updated: '+ (d.updated_at||'').slice(11,19);
 
-                // Conditional logic: show social channel when pain_point is social_media
-        document.addEventListener('DOMContentLoaded', function() {
-            const painPointSelect = document.querySelector('select[name="pain_point"]');
-            const socialGroup = document.getElementById('social-channel-group');
-            if (painPointSelect && socialGroup) {
-                painPointSelect.addEventListener('change', function() {
-                    socialGroup.style.display = this.value === 'social_media' ? 'block' : 'none';
-                    if (this.value !== 'social_media') {
-                        socialGroup.querySelector('select').value = '';
-                    }
-                });
-            }
-        });
+// Metrics
+document.getElementById('bhs-main').textContent=d.health_score||'95';
+const bhsEl=document.getElementById('bhs-main');
+const hs=d.health_score||95;
+bhsEl.style.color=hs>=75?'var(--success)':hs>=50?'var(--warning)':'var(--danger)';
+document.getElementById('roas-val').textContent=d.metrics?.roas||'5.5x';
+document.getElementById('cac-val').textContent=d.metrics?.cac||'$11.20';
+document.getElementById('campaigns-active').textContent=d.campaigns_active||0;
 
-        // Handle form submission
-        document.getElementById('client-intake-form').onsubmit = async function(e) {
-            e.preventDefault();
-            const formData = new FormData(e.target);
-            const data = Object.fromEntries(formData.entries());
-            
-            try {
-                const response = await fetch('/submit_intake', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(data)
-                });
-                
-                if (response.ok) {
-                    alert('✅ Sneak peek submitted! Our swarm is generating your personalized preview.');
-                } else {
-                    alert('⚡ Intake received! Generating your preview now.');
-                }
-            } catch (err) {
-                console.error('Submission error:', err);
-                alert('⚡ Intake received! Generating your preview now.');
-            }
-            toggleIntake();
-        };
+// Red-Line count
+document.getElementById('redline-count').textContent=d.red_line_events||0;
 
-// Fetch and update dashboard
-        async function updateDashboard() {
-            try {
-                const response = await fetch('dashboard_data.json?t=' + Date.now());
-                const data = await response.json();
+// Quality Gate panel
+const qg=d.quality_gate||{};
+if(qg.last_results){
+const qgBody=qg.last_results.map(r=>`<div style="margin-bottom:0.3rem;padding:0.3rem;border:1px solid var(--border);border-radius:3px;font-size:0.65rem">
+<span class="badge ${r.passed?'badge-green':'badge-red'}">${r.passed?'PASS':'FAIL'}</span>
+<strong>${r.asset||'Asset'}</strong>
+<span style="color:var(--muted)">BHS impact: ${r.bhs_impact||'N/A'}</span>
+${r.issues?`<div style="color:var(--danger);font-size:0.6rem">${r.issues.slice(0,2).join('; ')}</div>`:''}
+</div>`).join('');
+document.getElementById('qg-panel').innerHTML=qgBody;
+} else {
+document.getElementById('qg-panel').innerHTML='<div style="color:var(--muted);font-size:0.7rem;">No recent validations. Submit an asset to test.</div>';
+}
 
-                // Global Status
-                document.getElementById('global-status-text').innerText = data.global_status;
-                const dot = document.getElementById('global-status-dot');
-                dot.style.backgroundColor = data.global_status === 'RED-LINE' ? 'var(--danger)' : 'var(--success)';
-                dot.style.boxShadow = `0 0 10px ${dot.style.backgroundColor}`;
+// Integration status
+const ints=d.integrations||{};
+const intHtml=Object.entries(ints).map(([k,v])=>`<div style="display:flex;justify-content:space-between;padding:0.2rem 0;border-bottom:1px solid var(--border);font-size:0.65rem">
+<span>${k}</span><span style="color:${v.configured?'var(--success)':'var(--warning)'}">${v.configured?'🟢 LIVE':'🟡 MOCK MODE'}</span>
+</div>`).join('');
+document.getElementById('integration-panel').innerHTML=intHtml||'<div style="color:var(--muted)">No integrations configured</div>';
 
-                // Agent List
-                const agentList = document.getElementById('agent-list');
-                agentList.innerHTML = data.agents.map(agent => `
-                    <div class="agent-item">
-                        <div class="agent-name">
-                            <span class="agent-indicator" style="background: ${agent.status === 'online' ? 'var(--success)' : 'var(--text-secondary)'}"></span>
-                            ${agent.name}
-                        </div>
-                        <div class="agent-task">${agent.task}</div>
-                    </div>
-                `).join('');
+// Red-Line log
+const rl=d.redline_log||[];
+if(rl.length>0){
+const rlHtml=rl.slice(-5).reverse().map(e=>`<div style="padding:0.2rem 0;border-bottom:1px solid var(--border);font-size:0.65rem">
+<span class="badge ${e.event?.includes('RESOLVED')?'badge-green':e.event?.includes('TRIGGER')?'badge-red':'badge-yellow'}">${e.event||'EVENT'}</span>
+<span style="color:var(--muted)">${(e.timestamp||'').slice(11,19)}</span>
+<span>Score: ${e.score||e.bhs||'?'}</span>
+${e.recovery_asset?`<span style="color:var(--success)">✓ ${e.recovery_asset.split('/').pop()}</span>`:''}
+</div>`).join('');
+document.getElementById('redline-panel').innerHTML=rlHtml;
+}
 
-                // Project List
-                const projectList = document.getElementById('project-list');
-                projectList.innerHTML = data.projects.map(proj => `
-                    <tr>
-                        <td>${proj.name}</td>
-                        <td><span class="status-tag ${proj.status}">${proj.status.toUpperCase()}</span></td>
-                        <td>${proj.lead}</td>
-                        <td>${proj.updated}</td>
-                    </tr>
-                `).join('');
+// Ideogram log
+const ideo=d.ideogram_log||[];
+if(ideo.length>0){
+const ih=ideo.slice(-5).reverse().map(g=>`<div style="padding:0.2rem 0;border-bottom:1px solid var(--border);font-size:0.6rem">
+<span class="badge ${g.status?.includes('MOCK')?'badge-yellow':'badge-green'}">${g.status||'MOCK'}</span>
+<span style="color:var(--muted)">${(g.generated_at||'').slice(11,19)}</span>
+<span>${g.platform||'?'}</span>
+</div>`).join('');
+document.getElementById('ideogram-panel').innerHTML=ih;
+}
 
-                // Red-Line
-                document.getElementById('red-line-val').innerText = data.red_line_status;
-                document.getElementById('red-line-val').style.color = data.red_line_status === 'CLEAR' ? 'var(--success)' : 'var(--danger)';
+// Distribution log
+const dist=d.distribution_log||[];
+if(dist.length>0){
+const dh=dist.slice(-5).reverse().map(s=>`<div style="padding:0.2rem 0;border-bottom:1px solid var(--border);font-size:0.6rem">
+<span class="badge ${s.status?.includes('MOCK')?'badge-yellow':s.status==='sent'?'badge-green':'badge-red'}">${s.status||'MOCK'}</span>
+<span>${s.payload_summary?.client||'?'} → ${s.payload_summary?.platform||'?'}</span>
+</div>`).join('');
+document.getElementById('distribution-panel').innerHTML=dh;
+}
 
-                // Metrics
-                const metrics = data.metrics;
-                document.querySelector('.metric-card:nth-child(1) .metric-value').innerText = metrics.roas;
-                document.querySelector('.metric-card:nth-child(3) .metric-value').innerText = metrics.cac;
-                document.getElementById('health-score-val').innerText = data.health_score + '%';
+// Email log
+const email=d.email_log||[];
+if(email.length>0){
+const eh=email.slice(-5).reverse().map(e=>`<div style="padding:0.2rem 0;border-bottom:1px solid var(--border);font-size:0.6rem">
+<span class="badge ${e.status?.includes('MOCK')?'badge-yellow':e.status==='sent'?'badge-green':'badge-red'}">${e.status||'MOCK'}</span>
+<span>${e.subject||'?'}</span>
+<span style="color:var(--muted)">${e.recipient_count||0} recipients</span>
+</div>`).join('');
+document.getElementById('email-panel').innerHTML=eh;
+}
 
-                // Health Gauge
-                const gauge = document.getElementById('health-gauge-fill');
-                const rotation = 45 + (data.health_score * 1.8);
-                gauge.style.transform = `rotate(${rotation}deg)`;
-
-                // Help Desk
-                document.getElementById('resp-time-val').innerText = metrics.avg_response_time;
-                document.getElementById('tickets-val').innerText = metrics.active_tickets;
-
-                // Daily Digest
-                const digestBody = document.getElementById('digest-body');
-                if (data.daily_digest) {
-                    digestBody.innerHTML = `<div style="color: var(--text-primary);">${marked.parse(data.daily_digest)}</div>`;
-                }
-
-                // Asset Previews
-                const assetList = document.getElementById('asset-list');
-                if (data.creative_assets && data.creative_assets.length > 0) {
-                    assetList.innerHTML = data.creative_assets.map(asset => `
-                        <div class="asset-thumb">${asset}</div>
-                    `).join('');
-                } else {
-                    assetList.innerHTML = '<div style="color: var(--text-secondary); font-size: 0.7rem; grid-column: 1 / -1; text-align: center;">No assets pending review.</div>';
-                }
-
-            } catch (err) {
-                console.error('Error updating dashboard:', err);
-            }
-        }
-
-        updateDashboard();
-        setInterval(updateDashboard, 5000);
-    </script>
+// Campaign status
+document.getElementById('campaign-panel').innerHTML=`
+<div style="font-size:0.65rem">
+<div style="display:flex;justify-content:space-between;padding:0.2rem 0">
+<span>Campaign Generation</span>
+<span style="color:${d.campaigns_blocked?'var(--danger)':'var(--success)'}">${d.campaigns_blocked?'⛔ BLOCKED (Red-Line)':'✅ ACTIVE'}</span>
+</div>
+<div style="display:flex;justify-content:space-between;padding:0.2rem 0">
+<span>Asset Delivery</span>
+<span style="color:${d.delivery_blocked?'var(--danger)':'var(--success)'}">${d.delivery_blocked?'⛔ BLOCKED':'✅ ACTIVE'}</span>
+</div>
+</div>`;
+}).catch(()=>{});
+}
+setInterval(updateDashboard,10000);
+updateDashboard();
+</script>
 </body>
 </html>
