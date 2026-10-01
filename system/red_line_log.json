@@ -5,5 +5,32 @@
     "score": 30,
     "reason": "BHS score fell below threshold (50)",
     "status": "TRIGGERED"
+  },
+  {
+    "timestamp": "2026-07-04T03:25:26.276894",
+    "event": "RED-LINE-AUTO-TRIGGER",
+    "score": 30,
+    "client_id": "client-novatech-solutions-demo",
+    "reason": "Automated test",
+    "status": "ACTIVE",
+    "resolution": null
+  },
+  {
+    "timestamp": "2026-07-04T03:25:26.277702",
+    "event": "RED-LINE-RECOVERY-FAILED",
+    "resolution_id": "resolved-20260704-032526",
+    "recovery_asset": "/home/team/shared/sample_asset_valid.json",
+    "quality_gate_result": "FAIL",
+    "notes": "Test recovery",
+    "status": "ACTIVE"
+  },
+  {
+    "timestamp": "2026-07-04T03:25:41.306743",
+    "event": "RED-LINE-RESOLUTION",
+    "resolution_id": "resolved-20260704-032541",
+    "recovery_asset": "/tmp/recovery_asset.json",
+    "quality_gate_result": "PASS",
+    "notes": "Proper recovery with correct client_id",
+    "status": "RESOLVED"
   }
 ]
