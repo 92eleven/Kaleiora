@@ -1,0 +1,10 @@
+{
+  "type": "email",
+  "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+  "content": "Subject: Welcome to NovaTech \u2014 AI that works for you, not the other way around\n\nHi {{first_name}},\n\nWelcome to NovaTech Solutions.\n\nWe know you're busy running your business. The last thing you need is another complicated tool that takes months to figure out.\n\nThat's why we built an AI assistant that's genuinely easy to use. Our no-code AI platform gives you smart automation and real data insights \u2014 without the learning curve.\n\nHere's what happens next:\n\n\ud83d\udccb Step 1: Connect your data sources (5 minutes)\n\ud83e\udd16 Step 2: Your AI assistant starts learning your business patterns\n\ud83d\udcca Step 3: Get your first data insights within 24 hours\n\ud83d\udcb0 Step 4: From setup to ROI in under 30 days\n\nYour data stays yours, always. We handle the complexity so you don't have to.\n\nStart small, scale smart.\n\nReady to begin? Click below to complete your setup.\n\n[Start Your Free Trial \u2192]\n\n\u2014 The NovaTech Team",
+  "platform": "Email",
+  "cta": "Start Your Free Trial \u2192",
+  "brand_alignment_notes": "Empathetic tone variation. Uses all 4 do_say phrases. All 5 preferred terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI). Addresses pain points (complexity, time, expertise gap) and aspirations (actionable insights, automation).",
+  "client_id": "client-novatech-solutions-demo",
+  "generated_at": "2026-06-06T21:55:50.225560+00:00"
+}

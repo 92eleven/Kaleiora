@@ -1,0 +1,133 @@
+{
+  "campaign_name": "AI That Works For You",
+  "client_id": "client-novatech-solutions-demo",
+  "client_name": "NovaTech Solutions",
+  "generated_at": "2026-06-06T21:55:50.232876+00:00",
+  "generated_by": "agent-creative-agent",
+  "status": "ready_for_quality_gate",
+  "tagline": "AI That Works For You",
+  "brand_promise": "We make AI accessible, understandable, and profitable for small businesses.",
+  "campaign_objective": "Generate qualified leads among growth-stage SMBs by demonstrating that NovaTech makes AI accessible, with fast ROI and zero data risk.",
+  "target_audience_summary": {
+    "demographics": "Business owners/operators age 28-55, 5-200 employees, $500K-$50M revenue",
+    "industries": "Retail, Professional Services, E-commerce, Healthcare",
+    "pain_points_addressed": [
+      "AI feels too complex and expensive",
+      "Data privacy concerns with big AI platforms",
+      "Can't justify enterprise AI budgets",
+      "No internal AI expertise"
+    ],
+    "aspirations_addressed": [
+      "Automate repetitive tasks",
+      "Get actionable insights from their data",
+      "Compete with larger companies using AI"
+    ]
+  },
+  "key_messages_deployed": [
+    "No PhD required \u2014 AI that anyone can use",
+    "Your business data stays yours, always",
+    "From setup to ROI in under 30 days",
+    "Enterprise AI at small business prices"
+  ],
+  "do_say_phrases_deployed": [
+    "AI that works for you, not the other way around",
+    "We handle the complexity so you don't have to",
+    "Your data. Your control. Your insights.",
+    "Start small, scale smart"
+  ],
+  "preferred_vocabulary_deployed": [
+    "AI assistant",
+    "Smart automation",
+    "Data insights",
+    "Business intelligence",
+    "No-code AI"
+  ],
+  "banned_terms_verified_absent": [
+    "Revolutionary",
+    "Game-changing",
+    "Disruptive",
+    "It's just like ChatGPT",
+    "You'll need a data science team",
+    "LLM",
+    "Neural network",
+    "Deep learning",
+    "Transformer model",
+    "API integration"
+  ],
+  "tone_variations_used": [
+    "casual \u2014 social media posts",
+    "empathetic \u2014 welcome email",
+    "urgent \u2014 paid ad",
+    "formal \u2014 landing page"
+  ],
+  "visual_identity_reference": {
+    "colors": {
+      "primary": "#1A73E8",
+      "primary_dark": "#0D47A1",
+      "secondary": "#00C853",
+      "secondary_alt": "#00BFA5",
+      "accent": "#FF6D00",
+      "accent_alt": "#FFAB00"
+    },
+    "typography": "Inter Bold (headings), Inter Regular (body)",
+    "imagery_style": "Clean, minimalist product shots with real people using technology. Warm lighting, diverse representation."
+  },
+  "assets": [
+    {
+      "type": "social",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "platform": "Instagram",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_social_20260606_215550.json",
+      "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience."
+    },
+    {
+      "type": "social",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "platform": "Instagram",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_social_20260606_215550.json",
+      "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience."
+    },
+    {
+      "type": "email",
+      "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "platform": "Email",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_email_20260606_215550.json",
+      "brand_alignment_notes": "Empathetic tone variation. Uses all 4 do_say phrases. All 5 preferred terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI). Addresses pain points (complexity, time, expertise gap) and aspirations (actionable insights, automation)."
+    },
+    {
+      "type": "landing",
+      "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "platform": "Landing Page",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_landing_20260606_215550.json",
+      "brand_alignment_notes": "Full brand alignment. All 4 do_say phrases used as section headers. All 5 preferred terms present across sections. Progressive disclosure \u2014 starts with tagline and key messages, builds into features. NovaTech color scheme applied via CSS classes."
+    },
+    {
+      "type": "ad",
+      "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "platform": "LinkedIn | Instagram | Facebook",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_ad_20260606_215550.json",
+      "brand_alignment_notes": "Urgent tone variation. Concise for ad format. Uses do_say and preferred vocabulary. Includes key messages about data privacy and fast ROI. Creates FOMO without pressure tactics."
+    },
+    {
+      "type": "video",
+      "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "platform": "Website | Social Media",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_video_20260606_215550.json",
+      "brand_alignment_notes": "Runway Gen-4 Turbo text-to-video. Visualizes do_say concepts: 'We handle the complexity', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Brand colors: blue primary, green secondary. Inter typography overlay. Diverse representation."
+    },
+    {
+      "type": "social",
+      "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "platform": "LinkedIn",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_graphic_linkedin_20260606_215550.json",
+      "brand_alignment_notes": "Canva-generated LinkedIn banner (1200x627). Brand colors applied: blue primary, green secondary, orange accent. Copy features key messages. Inter typography."
+    },
+    {
+      "type": "social",
+      "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "platform": "Instagram",
+      "file": "client-novatech-solutions-demo_ai-that-works-for-you_graphic_story_20260606_215550.json",
+      "brand_alignment_notes": "Canva-generated Instagram Story (1080x1920). Dark blue primary, teal secondary. Copy features do_say phrases. Mobile-first design."
+    }
+  ]
+}
