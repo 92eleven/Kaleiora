@@ -1,0 +1,27 @@
+{
+  "type": "social",
+  "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+  "content": "AI That Works For You \u2014 No PhD required. Your data stays yours. Setup to ROI in 30 days.",
+  "platform": "LinkedIn",
+  "cta": "Link in bio to start your free trial",
+  "client_id": "client-novatech-solutions-demo",
+  "generated_at": "2026-06-06T21:56:37.105796+00:00",
+  "brand_alignment_notes": "Canva-generated LinkedIn banner (1200x627). Brand colors applied: blue primary, green secondary, orange accent. Copy features key messages. Inter typography.",
+  "canva_generation": {
+    "id": "canva-graphic-9f17fb4f316a",
+    "type": "canva_graphic",
+    "format": "linkedin",
+    "size": "1200x627",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#1A73E8",
+      "secondary": "#00C853",
+      "accent": "#FF6D00"
+    },
+    "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-9f17fb4f316a.png",
+    "generated_at": "2026-06-06T21:56:37.105451",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  }
+}

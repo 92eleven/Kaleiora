@@ -1,0 +1,27 @@
+{
+  "type": "social",
+  "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+  "content": "We handle the complexity so you don't have to. Your data. Your control. Your insights.",
+  "platform": "Instagram",
+  "cta": "Swipe up to start your free trial",
+  "client_id": "client-novatech-solutions-demo",
+  "generated_at": "2026-06-06T21:56:37.106381+00:00",
+  "brand_alignment_notes": "Canva-generated Instagram Story (1080x1920). Dark blue primary, teal secondary. Copy features do_say phrases. Mobile-first design.",
+  "canva_generation": {
+    "id": "canva-graphic-a511c642749a",
+    "type": "canva_graphic",
+    "format": "story",
+    "size": "1080x1920",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#0D47A1",
+      "secondary": "#00BFA5",
+      "accent": "#FFAB00"
+    },
+    "copy": "We handle the complexity so you don't have to.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-a511c642749a.png",
+    "generated_at": "2026-06-06T21:56:37.105987",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  }
+}
