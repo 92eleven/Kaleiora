@@ -1,0 +1,42 @@
+{
+  "total_clients": 5,
+  "active_clients": 5,
+  "clients": [
+    {
+      "client_id": "client-demo-brand-1780961911",
+      "name": "demo-brand",
+      "status": "active",
+      "assets": 0,
+      "campaigns": 0
+    },
+    {
+      "client_id": "client-finflow-accounting-demo",
+      "name": "FinFlow Accounting",
+      "status": "active",
+      "assets": 0,
+      "campaigns": 1
+    },
+    {
+      "client_id": "client-greenleaf-organics-demo",
+      "name": "GreenLeaf Organics",
+      "status": "active",
+      "assets": 1,
+      "campaigns": 1
+    },
+    {
+      "client_id": "client-novatech-solutions-demo",
+      "name": "NovaTech Solutions",
+      "status": "active",
+      "assets": 34,
+      "campaigns": 1
+    },
+    {
+      "client_id": "client-purebloom-skincare-1780961852",
+      "name": "PureBloom Skincare",
+      "status": "active",
+      "assets": 0,
+      "campaigns": 0
+    }
+  ],
+  "generated_at": "2026-06-08T23:40:35Z"
+}

@@ -1,0 +1,30 @@
+{
+  "client_id": "client-purebloom-skincare-1780961852",
+  "client_name": "PureBloom Skincare",
+  "status": "active",
+  "created_at": "2026-06-08T23:38:31Z",
+  "brand_guidelines": {
+    "mission": "A premium organic skincare company, sustainability is our core. Natural ingredients, eco-friendly packaging. Target: health-conscious women 25-45 who care about what they put on their skin.",
+    "key_messages": []
+  },
+  "tone_of_voice": {
+    "do_say": [],
+    "dont_say": [],
+    "vocabulary": {
+      "preferred_terms": [],
+      "avoid_terms": []
+    }
+  },
+  "visual_identity": {
+    "color_palette": {
+      "primary": [],
+      "secondary": [],
+      "accent": []
+    },
+    "typography": {}
+  },
+  "validated_assets_count": 0,
+  "campaigns_count": 0,
+  "validated_assets_summary": [],
+  "namespace_indexed_at": "2026-06-08T23:40:35Z"
+}

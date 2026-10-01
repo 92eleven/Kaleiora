@@ -1,0 +1,343 @@
+{
+  "client_id": "client-novatech-solutions-demo",
+  "client_name": "NovaTech Solutions",
+  "status": "active",
+  "created_at": "2026-06-05T03:18:23Z",
+  "brand_guidelines": {
+    "mission": "Democratizing AI for small businesses",
+    "vision": "A world where every small business has enterprise-grade AI",
+    "values": [
+      "Accessibility",
+      "Innovation",
+      "Trust",
+      "Simplicity"
+    ],
+    "tagline": "AI That Works For You",
+    "brand_promise": "We make AI accessible, understandable, and profitable for small businesses.",
+    "key_messages": [
+      "No PhD required \u2014 AI that anyone can use",
+      "Your business data stays yours, always",
+      "From setup to ROI in under 30 days",
+      "Enterprise AI at small business prices"
+    ],
+    "competitors": [
+      "OpenAI Business",
+      "Google Cloud AI",
+      "AWS AI Services"
+    ],
+    "target_audience": {
+      "demographics": {
+        "age_range": "28-55",
+        "business_size": "5-200 employees",
+        "industries": [
+          "Retail",
+          "Professional Services",
+          "E-commerce",
+          "Healthcare"
+        ],
+        "revenue": "$500K-$50M"
+      },
+      "psychographics": {
+        "tech_comfort": "Moderate \u2014 want AI benefits without complexity",
+        "decision_drivers": [
+          "ROI clarity",
+          "Ease of implementation",
+          "Data privacy",
+          "Support quality"
+        ]
+      },
+      "pain_points": [
+        "AI feels too complex and expensive",
+        "Data privacy concerns with big AI platforms",
+        "Can't justify enterprise AI budgets",
+        "No internal AI expertise"
+      ],
+      "aspirations": [
+        "Automate repetitive tasks",
+        "Get actionable insights from their data",
+        "Compete with larger companies using AI"
+      ]
+    }
+  },
+  "tone_of_voice": {
+    "personality": [
+      "Confident",
+      "Approachable",
+      "Empathetic",
+      "Clear"
+    ],
+    "voice_characteristics": "A knowledgeable friend who explains complex things simply. Never condescending. Always empowering.",
+    "tone_variations": {
+      "formal": "For whitepapers and case studies \u2014 data-driven, authoritative, but still accessible",
+      "casual": "For social media and blog posts \u2014 conversational, warm, uses 'you' and 'we'",
+      "urgent": "For limited-time offers \u2014 direct, benefit-focused, creates FOMO",
+      "empathetic": "For support and onboarding \u2014 reassuring, patient, celebrates small wins"
+    },
+    "do_say": [
+      "AI that works for you, not the other way around",
+      "We handle the complexity so you don't have to",
+      "Your data. Your control. Your insights.",
+      "Start small, scale smart"
+    ],
+    "dont_say": [
+      "Revolutionary",
+      "Game-changing",
+      "Disruptive",
+      "It's just like ChatGPT",
+      "You'll need a data science team"
+    ],
+    "vocabulary": {
+      "preferred_terms": [
+        "AI assistant",
+        "Smart automation",
+        "Data insights",
+        "Business intelligence",
+        "No-code AI"
+      ],
+      "avoid_terms": [
+        "LLM",
+        "Neural network",
+        "Deep learning",
+        "Transformer model",
+        "API integration"
+      ]
+    }
+  },
+  "visual_identity": {
+    "color_palette": {
+      "primary": [
+        "#1A73E8",
+        "#0D47A1"
+      ],
+      "secondary": [
+        "#00C853",
+        "#00BFA5"
+      ],
+      "accent": [
+        "#FF6D00",
+        "#FFAB00"
+      ]
+    },
+    "typography": {
+      "headings": "Inter Bold, sans-serif",
+      "body": "Inter Regular, sans-serif"
+    },
+    "logo_usage": "Logo should always have clear space equal to the height of the 'N'. Never stretch or distort. Use white logo on dark backgrounds, full-color on white.",
+    "imagery_style": "Clean, minimalist product shots with real people using technology. Warm lighting, diverse representation. Avoid generic stock photos of people staring at screens.",
+    "design_principles": [
+      "Clean and uncluttered",
+      "Accessible (WCAG AA minimum)",
+      "Mobile-first responsive",
+      "Data visualized simply"
+    ]
+  },
+  "validated_assets_count": 34,
+  "campaigns_count": 1,
+  "validated_assets_summary": [
+    {
+      "asset_id": "9d970f71-7814-4130-818e-cc0517964f7c",
+      "title": "NovaTech Launch Post - Instagram",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "9afcc571-a037-482b-ac96-4a49d3586d69",
+      "title": "NovaTech Solutions - LinkedIn Thought Leadership Post",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "ff65cc76-84a0-4c75-9011-941e9395d7a3",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "d643a5bd-e6c2-492d-b4bf-cc8a2101135c",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "bfaa0c45-60c2-4e27-8a4b-edd8ec876089",
+      "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "type": "email",
+      "approved": true
+    },
+    {
+      "asset_id": "540b4115-2995-46f5-8ba8-bffb8729d96e",
+      "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "type": "landing",
+      "approved": true
+    },
+    {
+      "asset_id": "3c0d1c46-9ad0-4060-8040-a58ac70f9d91",
+      "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "type": "ad",
+      "approved": true
+    },
+    {
+      "asset_id": "05405f41-d869-4b20-98f1-13df7e086bc8",
+      "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "type": "video",
+      "approved": true
+    },
+    {
+      "asset_id": "6354485a-b884-4cd0-a6cb-72e1c579d15c",
+      "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "c9d210f4-32e4-42cc-aba2-6bbd831b24cc",
+      "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "85a9a1b6-e198-42c9-8cd3-cda9992b3cdb",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "da80530b-3a62-40ae-ad7c-dafe96db518f",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "9b8093fc-ea44-4624-ab32-7dbd7cae71d8",
+      "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "type": "email",
+      "approved": true
+    },
+    {
+      "asset_id": "4e77fceb-22d4-4beb-9661-0e4f64ba100d",
+      "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "type": "landing",
+      "approved": true
+    },
+    {
+      "asset_id": "11725fa4-66dc-4189-bfee-eea4b0df91d4",
+      "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "type": "ad",
+      "approved": true
+    },
+    {
+      "asset_id": "a848ba11-ed76-464f-b803-fe8d8cee0f98",
+      "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "type": "video",
+      "approved": true
+    },
+    {
+      "asset_id": "707161aa-3e9c-4236-97dc-8943deeaad56",
+      "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "bbfb0f31-4660-4fbf-8c52-ce715050e5db",
+      "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "9e426e2c-1d98-4981-9f67-8d0a748149c5",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel (5 slides)",
+      "type": "social_instagram",
+      "approved": true
+    },
+    {
+      "asset_id": "889d1438-01cc-4898-ac01-ed52973cda17",
+      "title": "NovaTech Solutions \u2014 AI That Works For You (LinkedIn Thought Leadership)",
+      "type": "social_linkedin",
+      "approved": true
+    },
+    {
+      "asset_id": "ed2b1caa-f13b-42d2-a332-c3cf46f1dc24",
+      "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "type": "ad",
+      "approved": true
+    },
+    {
+      "asset_id": "3471c0a8-bcd2-4f09-bd0c-dc88f93bd9e4",
+      "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "type": "email",
+      "approved": true
+    },
+    {
+      "asset_id": "4f3d194c-809f-4b3b-9a0b-b56ac448c9db",
+      "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "d537ae41-0b06-49bf-879d-1b06ee94f711",
+      "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "9d0ff435-8cc6-4f1f-a62a-26b5a933d388",
+      "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "type": "landing",
+      "approved": true
+    },
+    {
+      "asset_id": "60e728f7-1636-4cf9-96b8-52ccce7fd686",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "95684606-dab7-4d30-bd06-c11a26a1e139",
+      "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "type": "video",
+      "approved": true
+    },
+    {
+      "asset_id": "90db15c2-5499-4961-8fc1-7ff881d78524",
+      "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "type": "ad",
+      "approved": true
+    },
+    {
+      "asset_id": "6aa36e35-5e42-4861-9476-62e865c73a7e",
+      "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "type": "email",
+      "approved": true
+    },
+    {
+      "asset_id": "5e9f4420-3941-49f3-84d5-c6bb16446600",
+      "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "38ec78d3-68d0-4a45-a705-151282986482",
+      "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "5282d614-3ef0-4a57-ba30-cd42fc6f1b76",
+      "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "type": "landing",
+      "approved": true
+    },
+    {
+      "asset_id": "03dc2000-b086-43d6-ae7d-3e185de73997",
+      "title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "type": "social",
+      "approved": true
+    },
+    {
+      "asset_id": "aa121690-ab2a-48c6-91ba-653a01419789",
+      "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "type": "video",
+      "approved": true
+    }
+  ],
+  "namespace_indexed_at": "2026-06-08T23:40:35Z"
+}

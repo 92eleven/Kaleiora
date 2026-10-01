@@ -1,0 +1,30 @@
+{
+  "client_id": "client-demo-brand-1780961911",
+  "client_name": "demo-brand",
+  "status": "active",
+  "created_at": "2026-06-08T23:38:31Z",
+  "brand_guidelines": {
+    "mission": "A premium organic skincare company focused on sustainability and natural ingredients. Target audience: health-conscious women 25-45.",
+    "key_messages": []
+  },
+  "tone_of_voice": {
+    "do_say": [],
+    "dont_say": [],
+    "vocabulary": {
+      "preferred_terms": [],
+      "avoid_terms": []
+    }
+  },
+  "visual_identity": {
+    "color_palette": {
+      "primary": [],
+      "secondary": [],
+      "accent": []
+    },
+    "typography": {}
+  },
+  "validated_assets_count": 0,
+  "campaigns_count": 0,
+  "validated_assets_summary": [],
+  "namespace_indexed_at": "2026-06-08T23:40:35Z"
+}

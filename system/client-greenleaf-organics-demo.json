@@ -1,0 +1,143 @@
+{
+  "client_id": "client-greenleaf-organics-demo",
+  "client_name": "GreenLeaf Organics",
+  "status": "active",
+  "created_at": "2026-06-06T21:58:04Z",
+  "brand_guidelines": {
+    "mission": "Making organic food accessible to every family",
+    "vision": "A world where healthy eating is the easy choice",
+    "values": [
+      "Sustainability",
+      "Transparency",
+      "Community",
+      "Wellness"
+    ],
+    "tagline": "Real Food. Real Simple.",
+    "brand_promise": "We make eating organic convenient, affordable, and trustworthy.",
+    "key_messages": [
+      "Know exactly where your food comes from",
+      "Farm-to-table, delivered to your door",
+      "Organic doesn't have to be complicated",
+      "Good for you. Good for the planet."
+    ],
+    "competitors": [
+      "Whole Foods",
+      "Thrive Market",
+      "Imperfect Foods"
+    ],
+    "target_audience": {
+      "demographics": {
+        "age_range": "25-45",
+        "income": "$60K-$150K",
+        "family_status": "Health-conscious individuals and families",
+        "locations": [
+          "Urban",
+          "Suburban"
+        ]
+      },
+      "psychographics": {
+        "values_driven": "Environmental sustainability is a purchase driver",
+        "decision_drivers": [
+          "Ingredient transparency",
+          "Convenience",
+          "Value",
+          "Environmental impact"
+        ]
+      },
+      "pain_points": [
+        "Organic food is too expensive",
+        "Don't know which brands to trust",
+        "No time to research food sources",
+        "Grocery delivery takes too long"
+      ],
+      "aspirations": [
+        "Feed family healthy meals without stress",
+        "Reduce environmental footprint",
+        "Support sustainable farming"
+      ]
+    }
+  },
+  "tone_of_voice": {
+    "personality": [
+      "Warm",
+      "Trustworthy",
+      "Encouraging",
+      "Down-to-earth"
+    ],
+    "voice_characteristics": "A friendly nutritionist neighbor who makes healthy living feel achievable, not overwhelming.",
+    "tone_variations": {
+      "formal": "For sustainability reports \u2014 data-driven, transparent, authoritative",
+      "casual": "For social media \u2014 warm, uses emojis naturally, speaks like a friend",
+      "urgent": "For limited harvests \u2014 excitement about freshness, seasonal availability",
+      "empathetic": "For overwhelmed parents \u2014 reassuring, practical, celebrates small wins"
+    },
+    "do_say": [
+      "Know your farmer. Know your food.",
+      "Fresh from the farm to your table",
+      "Every bite makes a difference",
+      "Healthy choices made simple"
+    ],
+    "dont_say": [
+      "Superfood",
+      "Detox",
+      "Miracle",
+      "Clean eating",
+      "You should"
+    ],
+    "vocabulary": {
+      "preferred_terms": [
+        "Farm-fresh",
+        "Seasonal produce",
+        "Sustainable sourcing",
+        "Organic essentials",
+        "Responsibly grown"
+      ],
+      "avoid_terms": [
+        "Superfood",
+        "Cleanse",
+        "Diet",
+        "Non-GMO",
+        "Gluten-free"
+      ]
+    }
+  },
+  "visual_identity": {
+    "color_palette": {
+      "primary": [
+        "#2E7D32",
+        "#1B5E20"
+      ],
+      "secondary": [
+        "#FF8F00",
+        "#F9A825"
+      ],
+      "accent": [
+        "#8D6E63",
+        "#A1887F"
+      ]
+    },
+    "typography": {
+      "headings": "Lora Bold, serif",
+      "body": "Nunito Regular, sans-serif"
+    },
+    "logo_usage": "Leaf icon should always face right. Minimum clear space equals the width of the leaf. Use white on green backgrounds, full-color on white or light backgrounds.",
+    "imagery_style": "Natural lighting photos of real farms and families. Warm, earthy tones. Unfiltered, authentic food photography. Avoid sterile studio shots.",
+    "design_principles": [
+      "Warm and organic",
+      "Texture-rich",
+      "Storytelling through imagery",
+      "Approachable sophistication"
+    ]
+  },
+  "validated_assets_count": 1,
+  "campaigns_count": 1,
+  "validated_assets_summary": [
+    {
+      "asset_id": "1893c9e4-75db-4f18-9c8c-0fe2efda3081",
+      "title": "NovaTech Launch Post - Instagram",
+      "type": "social",
+      "approved": true
+    }
+  ],
+  "namespace_indexed_at": "2026-06-08T23:40:35Z"
+}
