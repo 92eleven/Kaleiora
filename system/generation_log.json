@@ -1,0 +1,236 @@
+[
+  {
+    "id": "runway-7ef226245bf4",
+    "type": "text_to_video",
+    "status": "complete",
+    "progress": 100,
+    "model": "gen-4-turbo",
+    "prompt": "Sleek product reveal for NovaTech AI",
+    "duration_seconds": 5,
+    "output_file": "/home/team/shared/creative_output/runway-7ef226245bf4.mp4",
+    "credits_used": 5,
+    "generated_at": "2026-06-06T21:45:54.840787",
+    "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+    "_source_image": null
+  },
+  {
+    "id": "canva-graphic-aba406e91554",
+    "type": "canva_graphic",
+    "format": "linkedin",
+    "size": "1200x627",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#1A73E8",
+      "secondary": "#00C853"
+    },
+    "copy": "AI That Works For You. No PhD required.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-aba406e91554.png",
+    "generated_at": "2026-06-06T21:45:54.842402",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "runway-eedf61f1547b",
+    "type": "text_to_video",
+    "status": "complete",
+    "progress": 100,
+    "model": "gen-4-turbo",
+    "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+    "duration_seconds": 10,
+    "output_file": "/home/team/shared/creative_output/runway-eedf61f1547b.mp4",
+    "credits_used": 5,
+    "generated_at": "2026-06-06T21:53:19.653565",
+    "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+    "_source_image": null
+  },
+  {
+    "id": "canva-graphic-614ff429839f",
+    "type": "canva_graphic",
+    "format": "linkedin",
+    "size": "1200x627",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#1A73E8",
+      "secondary": "#00C853",
+      "accent": "#FF6D00"
+    },
+    "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-614ff429839f.png",
+    "generated_at": "2026-06-06T21:53:19.659184",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "canva-graphic-c635b7f02551",
+    "type": "canva_graphic",
+    "format": "story",
+    "size": "1080x1920",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#0D47A1",
+      "secondary": "#00BFA5",
+      "accent": "#FFAB00"
+    },
+    "copy": "We handle the complexity so you don't have to.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-c635b7f02551.png",
+    "generated_at": "2026-06-06T21:53:19.659798",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "runway-3badaab812af",
+    "type": "text_to_video",
+    "status": "complete",
+    "progress": 100,
+    "model": "gen-4-turbo",
+    "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+    "duration_seconds": 10,
+    "output_file": "/home/team/shared/creative_output/runway-3badaab812af.mp4",
+    "credits_used": 5,
+    "generated_at": "2026-06-06T21:55:39.266645",
+    "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+    "_source_image": null
+  },
+  {
+    "id": "canva-graphic-7271e6cd466c",
+    "type": "canva_graphic",
+    "format": "linkedin",
+    "size": "1200x627",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#1A73E8",
+      "secondary": "#00C853",
+      "accent": "#FF6D00"
+    },
+    "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-7271e6cd466c.png",
+    "generated_at": "2026-06-06T21:55:39.267704",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "canva-graphic-bbf9f0053302",
+    "type": "canva_graphic",
+    "format": "story",
+    "size": "1080x1920",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#0D47A1",
+      "secondary": "#00BFA5",
+      "accent": "#FFAB00"
+    },
+    "copy": "We handle the complexity so you don't have to.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-bbf9f0053302.png",
+    "generated_at": "2026-06-06T21:55:39.273410",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "runway-bffccb0c61ba",
+    "type": "text_to_video",
+    "status": "complete",
+    "progress": 100,
+    "model": "gen-4-turbo",
+    "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+    "duration_seconds": 10,
+    "output_file": "/home/team/shared/creative_output/runway-bffccb0c61ba.mp4",
+    "credits_used": 5,
+    "generated_at": "2026-06-06T21:55:50.231272",
+    "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+    "_source_image": null
+  },
+  {
+    "id": "canva-graphic-b42af72f5d48",
+    "type": "canva_graphic",
+    "format": "linkedin",
+    "size": "1200x627",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#1A73E8",
+      "secondary": "#00C853",
+      "accent": "#FF6D00"
+    },
+    "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-b42af72f5d48.png",
+    "generated_at": "2026-06-06T21:55:50.231966",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "canva-graphic-c0bb3713b89a",
+    "type": "canva_graphic",
+    "format": "story",
+    "size": "1080x1920",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#0D47A1",
+      "secondary": "#00BFA5",
+      "accent": "#FFAB00"
+    },
+    "copy": "We handle the complexity so you don't have to.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-c0bb3713b89a.png",
+    "generated_at": "2026-06-06T21:55:50.232369",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "runway-62caba66e7c9",
+    "type": "text_to_video",
+    "status": "complete",
+    "progress": 100,
+    "model": "gen-4-turbo",
+    "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+    "duration_seconds": 10,
+    "output_file": "/home/team/shared/creative_output/runway-62caba66e7c9.mp4",
+    "credits_used": 5,
+    "generated_at": "2026-06-06T21:56:37.104677",
+    "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+    "_source_image": null
+  },
+  {
+    "id": "canva-graphic-9f17fb4f316a",
+    "type": "canva_graphic",
+    "format": "linkedin",
+    "size": "1200x627",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#1A73E8",
+      "secondary": "#00C853",
+      "accent": "#FF6D00"
+    },
+    "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-9f17fb4f316a.png",
+    "generated_at": "2026-06-06T21:56:37.105451",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "canva-graphic-a511c642749a",
+    "type": "canva_graphic",
+    "format": "story",
+    "size": "1080x1920",
+    "status": "mock",
+    "brand_colors": {
+      "primary": "#0D47A1",
+      "secondary": "#00BFA5",
+      "accent": "#FFAB00"
+    },
+    "copy": "We handle the complexity so you don't have to.",
+    "output_format": "png",
+    "output_file": "/home/team/shared/creative_output/canva-graphic-a511c642749a.png",
+    "generated_at": "2026-06-06T21:56:37.105987",
+    "_note": "MOCK RESULT - Configure Canva API key for real designs"
+  },
+  {
+    "id": "invideo-579cfcb60626",
+    "type": "text_to_video",
+    "status": "mock",
+    "model": "seedance-2.0",
+    "style": "commercial",
+    "prompt": "Brand video showcasing eco-friendly skincare, clean bright aesthetic",
+    "duration_seconds": 15,
+    "output_file": "/home/team/shared/creative_output/invideo-579cfcb60626.mp4",
+    "generated_at": "2026-06-09T01:12:53.955455",
+    "_note": "MOCK RESULT - Configure InVideo AI key in config/api_keys.json for real generations"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "type": "video",
+  "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+  "content": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+  "platform": "Website | Social Media",
+  "cta": "Start Your Free Trial \u2192",
+  "client_id": "client-novatech-solutions-demo",
+  "generated_at": "2026-06-06T21:55:50.231592+00:00",
+  "brand_alignment_notes": "Runway Gen-4 Turbo text-to-video. Visualizes do_say concepts: 'We handle the complexity', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Brand colors: blue primary, green secondary. Inter typography overlay. Diverse representation.",
+  "runway_generation": {
+    "id": "runway-bffccb0c61ba",
+    "type": "text_to_video",
+    "status": "complete",
+    "progress": 100,
+    "model": "gen-4-turbo",
+    "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+    "duration_seconds": 10,
+    "output_file": "/home/team/shared/creative_output/runway-bffccb0c61ba.mp4",
+    "credits_used": 5,
+    "generated_at": "2026-06-06T21:55:50.231272",
+    "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+    "_source_image": null
+  }
+}
