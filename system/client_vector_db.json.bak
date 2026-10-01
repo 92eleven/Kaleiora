@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-06-05T03:18:08Z",
+  "clients": {
+    "client-novatech-solutions-1780629076": {
+      "client_name": "NovaTech Solutions",
+      "brand_guidelines": {
+        "mission": "Democratizing AI for small businesses",
+        "vision": "A world where every small business has enterprise-grade AI",
+        "values": [
+          "Accessibility",
+          "Innovation",
+          "Trust",
+          "Simplicity"
+        ],
+        "tagline": "AI That Works For You",
+        "brand_promise": "We make AI accessible, understandable, and profitable for small businesses.",
+        "key_messages": [
+          "No PhD required \u2014 AI that anyone can use",
+          "Your business data stays yours, always",
+          "From setup to ROI in under 30 days",
+          "Enterprise AI at small business prices"
+        ],
+        "competitors": [
+          "OpenAI Business",
+          "Google Cloud AI",
+          "AWS AI Services"
+        ],
+        "target_audience": {
+          "demographics": {
+            "age_range": "28-55",
+            "business_size": "5-200 employees",
+            "industries": [
+              "Retail",
+              "Professional Services",
+              "E-commerce",
+              "Healthcare"
+            ],
+            "revenue": "$500K-$50M"
+          },
+          "psychographics": {
+            "tech_comfort": "Moderate \u2014 want AI benefits without complexity",
+            "decision_drivers": [
+              "ROI clarity",
+              "Ease of implementation",
+              "Data privacy",
+              "Support quality"
+            ]
+          },
+          "pain_points": [
+            "AI feels too complex and expensive",
+            "Data privacy concerns with big AI platforms",
+            "Can't justify enterprise AI budgets",
+            "No internal AI expertise"
+          ],
+          "aspirations": [
+            "Automate repetitive tasks",
+            "Get actionable insights from their data",
+            "Compete with larger companies using AI"
+          ]
+        }
+      },
+      "tone_of_voice": {
+        "personality": [
+          "Confident",
+          "Approachable",
+          "Empathetic",
+          "Clear"
+        ],
+        "voice_characteristics": "A knowledgeable friend who explains complex things simply. Never condescending. Always empowering.",
+        "tone_variations": {
+          "formal": "For whitepapers and case studies \u2014 data-driven, authoritative, but still accessible",
+          "casual": "For social media and blog posts \u2014 conversational, warm, uses 'you' and 'we'",
+          "urgent": "For limited-time offers \u2014 direct, benefit-focused, creates FOMO",
+          "empathetic": "For support and onboarding \u2014 reassuring, patient, celebrates small wins"
+        },
+        "do_say": [
+          "AI that works for you, not the other way around",
+          "We handle the complexity so you don't have to",
+          "Your data. Your control. Your insights.",
+          "Start small, scale smart"
+        ],
+        "dont_say": [
+          "Revolutionary",
+          "Game-changing",
+          "Disruptive",
+          "It's just like ChatGPT",
+          "You'll need a data science team"
+        ],
+        "vocabulary": {
+          "preferred_terms": [
+            "AI assistant",
+            "Smart automation",
+            "Data insights",
+            "Business intelligence",
+            "No-code AI"
+          ],
+          "avoid_terms": [
+            "LLM",
+            "Neural network",
+            "Deep learning",
+            "Transformer model",
+            "API integration"
+          ]
+        }
+      },
+      "visual_identity": {
+        "color_palette": {
+          "primary": [
+            "#1A73E8",
+            "#0D47A1"
+          ],
+          "secondary": [
+            "#00C853",
+            "#00BFA5"
+          ],
+          "accent": [
+            "#FF6D00",
+            "#FFAB00"
+          ]
+        },
+        "typography": {
+          "headings": "Inter Bold, sans-serif",
+          "body": "Inter Regular, sans-serif"
+        },
+        "logo_usage": "Logo should always have clear space equal to the height of the 'N'. Never stretch or distort. Use white logo on dark backgrounds, full-color on white.",
+        "imagery_style": "Clean, minimalist product shots with real people using technology. Warm lighting, diverse representation. Avoid generic stock photos of people staring at screens.",
+        "design_principles": [
+          "Clean and uncluttered",
+          "Accessible (WCAG AA minimum)",
+          "Mobile-first responsive",
+          "Data visualized simply"
+        ]
+      },
+      "client_id": "client-novatech-solutions-1780629076",
+      "created_at": "2026-06-05T03:11:16Z",
+      "updated_at": "2026-06-05T03:18:08Z",
+      "status": "active",
+      "validated_assets": [
+        {
+          "type": "social",
+          "title": "NovaTech Launch Post - Instagram",
+          "content": "Stop wrestling with complicated AI tools. NovaTech's AI assistant handles the complexity so you can focus on what matters \u2014 your business. No data science team required. \ud83d\ude80 #SmartAutomation #BusinessIntelligence #NoCodeAI",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "asset_id": "3015087c-4778-41c9-8896-13a4fbdb7eac",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-05T03:17:10Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Launch Post - Instagram",
+          "content": "Stop wrestling with complicated AI tools. NovaTech's AI assistant handles the complexity so you can focus on what matters \u2014 your business. No data science team required. \ud83d\ude80 #SmartAutomation #BusinessIntelligence #NoCodeAI",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "asset_id": "3aeaae00-8e89-4053-9f54-164ded841d80",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-05T03:18:08Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        }
+      ],
+      "intake_data": {
+        "submitted_at": "2026-06-05T03:11:16Z",
+        "source": "dashboard_intake_form"
+      }
+    }
+  },
+  "validation_log": [
+    {
+      "timestamp": "2026-06-05T03:17:10Z",
+      "asset_id": "3015087c-4778-41c9-8896-13a4fbdb7eac",
+      "client_id": "client-novatech-solutions-1780629076",
+      "asset_title": "NovaTech Launch Post - Instagram",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-05T03:18:08Z",
+      "asset_id": "3aeaae00-8e89-4053-9f54-164ded841d80",
+      "client_id": "client-novatech-solutions-1780629076",
+      "asset_title": "NovaTech Launch Post - Instagram",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    }
+  ],
+  "index": {
+    "by_status": {
+      "intake": [],
+      "active": [
+        "client-novatech-solutions-1780629076"
+      ],
+      "archived": []
+    },
+    "by_agent": {}
+  }
+}
