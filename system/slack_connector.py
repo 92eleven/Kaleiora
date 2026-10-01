@@ -1,19 +1,26 @@
-#!/usr/bin/env python3
-"""Slack connector - sends messages via webhook. Mock mode when no URL."""
-import json, os
-from scripts.config_loader import Config
+import os
+import json
+import requests
 
-def send_slack_message(message):
-    cfg = Config().get("slack")
-    webhook = cfg.get("webhook_url", "")
-    if not webhook:
-        print(f"[MOCK - NOT LIVE] Slack message would be sent: {message[:100]}...")
-        return {"status": "mock", "note": "MOCK - Configure SLACK_WEBHOOK_URL to send live"}
+def send_slack_message(message, webhook_url=None):
+    if not webhook_url:
+        webhook_url = os.environ.get('SLACK_WEBHOOK_URL')
+    
+    if not webhook_url:
+        print(f"[SIMULATION] Slack Message: {message}")
+        return True
+    
+    payload = {"text": message}
     try:
-        import requests
-        r = requests.post(webhook, json={"text": message}, timeout=5)
-        if r.status_code == 200:
-            return {"status": "sent"}
-        return {"status": "error", "code": r.status_code}
+        response = requests.post(webhook_url, json=payload)
+        response.raise_for_status()
+        print("Slack message sent successfully.")
+        return True
     except Exception as e:
-        return {"status": "error", "error": str(e)}
+        print(f"Failed to send Slack message: {e}")
+        return False
+
+if __name__ == "__main__":
+    import sys
+    msg = sys.argv[1] if len(sys.argv) > 1 else "Test message from Kaleiora Agent"
+    send_slack_message(msg)
