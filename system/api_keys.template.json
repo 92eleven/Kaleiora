@@ -1,0 +1,33 @@
+{
+  "_comment": "Kaleiora Agentic Marketing - API Key Configuration",
+  "_instructions": "Add your API keys below to activate integrations.",
+  "pricing_summary": {
+    "invideo": "Plus: $17/mo (75 credits) | Max: $85/mo (390 credits) | Generative: $170/mo (800 credits)",
+    "canva": "Canva Pro ~$13/mo (API access included with Pro)",
+    "runway": "Free: 125 credits | Standard: $12/mo | Pro: $28/mo"
+  },
+  "integrations": {
+    "invideo": {
+      "api_key": "",
+      "enabled": false,
+      "default_model": "seedance-2.0",
+      "_instructions": "Sign up at https://invideo.io/pricing/ - Plus tier or above. Get API key from your account settings."
+    },
+    "canva": {
+      "api_key": "",
+      "enabled": false,
+      "_instructions": "Get your API key at https://www.canva.com/developers/ - Create a new app"
+    },
+    "runway": {
+      "api_key": "",
+      "base_url": "https://api.runwayml.com/v1",
+      "enabled": false,
+      "default_model": "gen-4-turbo",
+      "_instructions": "Get your API key at https://runwayml.com - Go to Settings > API"
+    },
+    "openai": {
+      "api_key": "",
+      "enabled": false
+    }
+  }
+}
