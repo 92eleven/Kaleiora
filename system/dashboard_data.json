@@ -1,0 +1,97 @@
+{
+  "global_status": "OPTIMIZED",
+  "red_line_status": "OPTIMIZED",
+  "health_score": 95,
+  "metrics": {
+    "roas": "5.5x",
+    "cac": "$11.20",
+    "avg_response_time": "14m",
+    "active_tickets": 2
+  },
+  "agents": [
+    {
+      "id": "agent-mgr",
+      "name": "Manager",
+      "status": "online",
+      "task": "Monitoring Swarm Health"
+    },
+    {
+      "id": "agent-dev",
+      "name": "Developer",
+      "status": "online",
+      "task": "Constructing Command Center"
+    },
+    {
+      "id": "agent-brand-custodian",
+      "name": "Brand Custodian",
+      "status": "online",
+      "task": "Indexing Vector DB"
+    },
+    {
+      "id": "agent-ci-agent",
+      "name": "CI Agent",
+      "status": "online",
+      "task": "Calculating Brand Health"
+    }
+  ],
+  "projects": [
+    {
+      "name": "System Architecture",
+      "status": "active",
+      "lead": "Manager",
+      "updated": "Just now"
+    },
+    {
+      "name": "Vector DB Indexing",
+      "status": "review",
+      "lead": "Brand Custodian",
+      "updated": "2m ago"
+    },
+    {
+      "name": "Command Center",
+      "status": "active",
+      "lead": "Developer",
+      "updated": "Just now"
+    }
+  ],
+  "creative_assets": [
+    "client-novatech-solutions-demo_ai-that-works-for-you_landing_20260606_215550.json",
+    "CAMPAIGN_HERO.PNG",
+    "client-novatech-solutions-demo_ai-that-works-for-you_graphic_linkedin_20260606_215550.json",
+    "client-novatech-solutions-demo_ai-that-works-for-you_social_20260606_215550.json",
+    "LOGO_FINAL.SVG",
+    "AD_COPY_V1.PDF",
+    "client-novatech-solutions-demo_ai-that-works-for-you_email_20260606_215550.json",
+    "client-novatech-solutions-demo_ai-that-works-for-you_ad_20260606_215550.json",
+    "IMG_001.JPG",
+    "client-novatech-solutions-demo_ai-that-works-for-you_video_20260606_215550.json"
+  ],
+  "daily_digest": "\u26a1 New lead preview generated for Luna Beauty Co (Ai) \u2014 sneak peek ready at lead_previews/preview-d9f3171d.html",
+  "updated_at": "2026-06-10T18:07:35.044855Z",
+  "leads": [
+    {
+      "id": "preview-39efdff0",
+      "brand": "demo-brand",
+      "industry": "ai",
+      "preview": "/lead_previews/preview-39efdff0.html",
+      "generated_at": "2026-06-08T23:37:05.897304",
+      "status": "preview_generated"
+    },
+    {
+      "id": "preview-2af5aecc",
+      "brand": "PureBloom Skincare",
+      "industry": "ai",
+      "preview": "/lead_previews/preview-2af5aecc.html",
+      "generated_at": "2026-06-08T23:37:24.333820",
+      "status": "preview_generated"
+    },
+    {
+      "id": "preview-d9f3171d",
+      "brand": "Luna Beauty Co",
+      "industry": "ai",
+      "preview": "/lead_previews/preview-d9f3171d.html",
+      "generated_at": "2026-06-09T00:20:37.913433",
+      "status": "preview_generated"
+    }
+  ]
+}

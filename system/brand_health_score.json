@@ -1,0 +1,35 @@
+{
+  "client_name": "novatech-solutions",
+  "last_updated": "2026-06-10T18:07:35.044494Z",
+  "overall_score": 95,
+  "status": "OPTIMIZED",
+  "color": "Green",
+  "pillars": {
+    "roas": {
+      "score": 110,
+      "actual": 5.5,
+      "target": 5.0
+    },
+    "cac": {
+      "score": 89,
+      "actual": 11.2,
+      "target": 10.0
+    },
+    "alignment": {
+      "score": 95,
+      "actual": 95,
+      "target": 100
+    },
+    "velocity": {
+      "score": 90,
+      "actual": 90,
+      "target": 100
+    },
+    "sentiment": {
+      "score": 85,
+      "actual": 85,
+      "target": 100
+    }
+  },
+  "trend": "Synchronized"
+}

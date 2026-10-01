@@ -1,0 +1,7 @@
+{
+  "type": "social",
+  "title": "NovaTech Solutions - LinkedIn Thought Leadership Post",
+  "content": "Stop wrestling with complicated AI tools. NovaTech's AI assistant handles the complexity so you can focus on what matters — your business. No PhD required — AI that anyone can use. From setup to ROI in under 30 days. Your business data stays yours, always. #SmartAutomation #BusinessIntelligence #NoCodeAI",
+  "platform": "LinkedIn",
+  "cta": "Link in comments to start your free trial"
+}

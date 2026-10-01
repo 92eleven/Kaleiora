@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-06-05T03:15:03Z",
+    "event": "RED-LINE_AUTO_TRIGGER",
+    "score": 30,
+    "reason": "BHS score fell below threshold (50)",
+    "status": "TRIGGERED"
+  }
+]

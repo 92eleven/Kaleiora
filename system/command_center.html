@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaleiora Command Center</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0b;
+            --card-bg: #141417;
+            --border-color: #2a2a30;
+            --text-primary: #e0e0e0;
+            --text-secondary: #909090;
+            --accent: #00f2ff;
+            --success: #00ff88;
+            --warning: #ffcc00;
+            --danger: #ff0055;
+            --font-mono: 'Fira Code', 'Courier New', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 1rem 2rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, rgba(0, 242, 255, 0.05) 0%, transparent 100%);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+        }
+
+        .agency-status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--success);
+            box-shadow: 0 0 10px var(--success);
+        }
+
+        .status-text {
+            color: var(--success);
+            font-weight: bold;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 250px 1fr 300px;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 1rem;
+            padding: 1rem;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .card-header {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-body {
+            padding: 1rem;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        /* Project Status Board */
+        #project-board {
+            grid-column: 2;
+            grid-row: 1 / span 2;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+            padding: 0.5rem;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        td {
+            padding: 0.75rem 0.5rem;
+            font-size: 0.85rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .status-tag {
+            padding: 2px 6px;
+            border-radius: 2px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
+        .status-tag.active { background: rgba(0, 255, 136, 0.1); color: var(--success); border: 1px solid var(--success); }
+        .status-tag.review { background: rgba(255, 204, 0, 0.1); color: var(--warning); border: 1px solid var(--warning); }
+        .status-tag.blocked { background: rgba(255, 0, 85, 0.1); color: var(--danger); border: 1px solid var(--danger); }
+
+        /* Agent Status */
+        #agent-status {
+            grid-column: 1;
+            grid-row: 1 / span 3;
+        }
+
+        .agent-item {
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #222;
+        }
+
+        .agent-name {
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .agent-task {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .agent-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        /* Performance & Health */
+        #metrics-health {
+            grid-column: 3;
+            grid-row: 2;
+        }
+
+        .metric-card {
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent);
+            margin: 0.25rem 0;
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+        }
+
+        .health-gauge {
+            width: 120px;
+            height: 60px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .gauge-inner {
+            width: 120px;
+            height: 120px;
+            border: 10px solid var(--border-color);
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-radius: 50%;
+            transform: rotate(-45deg);
+        }
+
+        .gauge-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            border: 10px solid var(--accent);
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-radius: 50%;
+            transform: rotate(45deg); /* Adjusted by JS */
+            transition: transform 1s ease-out;
+        }
+
+        /* Red-Line Status */
+        #red-line-panel {
+            grid-column: 3;
+            grid-row: 1;
+            background: rgba(255, 0, 85, 0.05);
+            border-color: rgba(255, 0, 85, 0.3);
+        }
+
+        .red-line-title {
+            color: var(--danger);
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+        }
+
+        .red-line-status {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 0.5rem 0;
+            text-shadow: 0 0 10px rgba(255, 0, 85, 0.5);
+        }
+
+        /* Help Desk */
+        #help-desk {
+            grid-column: 3;
+            grid-row: 3;
+        }
+
+        /* Asset Previews */
+        #asset-previews {
+            grid-column: 2;
+            grid-row: 3;
+        }
+
+        /* Client Intake Form */
+        #intake-section {
+            padding: 2rem;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            overflow-y: auto;
+            display: none; /* Toggle with JS */
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            z-index: 100;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        input, textarea, select {
+            width: 100%;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 0.75rem;
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+        }
+
+        button {
+            background: var(--accent);
+            color: var(--bg-color);
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            box-shadow: 0 0 15px var(--accent);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+        }
+
+        /* Creative Asset Previews */
+        .asset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+        }
+
+        .asset-thumb {
+            width: 100%;
+            aspect-ratio: 1;
+            background: #222;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.6rem;
+            color: var(--text-secondary);
+        }
+
+        .nav-btn {
+            background: none;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 0.25rem 0.5rem;
+            font-size: 0.7rem;
+            margin-left: 10px;
+        }
+
+        /* Daily Digest Styling */
+        #digest-body h1, #digest-body h2, #digest-body h3 {
+            color: var(--accent);
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+        #digest-body ul {
+            margin-left: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        #digest-body li {
+            margin-bottom: 0.25rem;
+        }
+        #digest-body blockquote {
+            border-left: 2px solid var(--accent);
+            padding-left: 0.5rem;
+            margin: 0.5rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+        #digest-body code {
+            background: #222;
+            padding: 1px 3px;
+            border-radius: 2px;
+            color: var(--success);
+        }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Kaleiora Command Center</div>
+        <div class="agency-status">
+            <div class="status-dot" id="global-status-dot"></div>
+            <div class="status-text" id="global-status-text">OPTIMIZED</div>
+            <button class="nav-btn" onclick="toggleIntake()">+ New Client Intake</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Agent Status -->
+        <div class="card" id="agent-status">
+            <div class="card-header">Agent Network</div>
+            <div class="card-body" id="agent-list">
+                <!-- Populated by JS -->
+                <div class="agent-item">
+                    <div class="agent-name"><span class="agent-indicator" style="background: var(--success)"></span>Manager</div>
+                    <div class="agent-task">Monitoring Swarm Health</div>
+                </div>
+                <div class="agent-item">
+                    <div class="agent-name"><span class="agent-indicator" style="background: var(--accent)"></span>Developer</div>
+                    <div class="agent-task">Constructing Command Center</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Board -->
+        <div class="card" id="project-board">
+            <div class="card-header">
+                Active Projects
+                <span>Total: 3</span>
+            </div>
+            <div class="card-body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Status</th>
+                            <th>Lead Agent</th>
+                            <th>Last Update</th>
+                        </tr>
+                    </thead>
+                    <tbody id="project-list">
+                        <!-- Populated by JS -->
+                        <tr>
+                            <td>System Architecture</td>
+                            <td><span class="status-tag active">ACTIVE</span></td>
+                            <td>Manager</td>
+                            <td>Just now</td>
+                        </tr>
+                        <tr>
+                            <td>Vector DB Indexing</td>
+                            <td><span class="status-tag review">IN PROGRESS</span></td>
+                            <td>Brand Custodian</td>
+                            <td>2m ago</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Red-Line Panel -->
+        <div class="card" id="red-line-panel">
+            <div class="card-header">Crisis Management</div>
+            <div class="card-body">
+                <div class="red-line-title">RED-LINE STATUS</div>
+                <div class="red-line-status" id="red-line-val">CLEAR</div>
+                <p style="font-size: 0.7rem; color: var(--text-secondary); text-align: center;">
+                    No critical failures detected. All systems within nominal range.
+                </p>
+            </div>
+        </div>
+
+        <!-- Metrics & Health -->
+        <div class="card" id="metrics-health">
+            <div class="card-header">Performance Analytics</div>
+            <div class="card-body" style="display: flex; justify-content: space-around; align-items: center;">
+                <div class="metric-card">
+                    <div class="metric-label">ROAS</div>
+                    <div class="metric-value">4.2x</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Brand Health</div>
+                    <div class="health-gauge">
+                        <div class="gauge-inner"></div>
+                        <div class="gauge-fill" id="health-gauge-fill"></div>
+                    </div>
+                    <div class="metric-value" style="font-size: 1.2rem;" id="health-score-val">88%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">CAC</div>
+                    <div class="metric-value">$12.40</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asset Previews -->
+        <div class="card" id="asset-previews">
+            <div class="card-header">Creative Asset Previews</div>
+            <div class="card-body">
+                <div class="asset-grid" id="asset-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Bottom Column Container -->
+        <div style="display: flex; flex-direction: column; gap: 1rem; grid-column: 3; grid-row: 3;">
+            <!-- Daily Digest -->
+            <div class="card" id="daily-digest" style="flex: 1;">
+                <div class="card-header">Daily Performance Digest</div>
+                <div class="card-body" id="digest-body" style="font-size: 0.75rem; line-height: 1.4;">
+                    <div style="color: var(--text-secondary);">Waiting for Manager's 08:00 EST report...</div>
+                </div>
+            </div>
+
+            <!-- Help Desk (Small) -->
+            <div class="card" id="help-desk" style="height: 100px;">
+                <div class="card-header">Help Desk</div>
+                <div class="card-body" style="display: flex; justify-content: space-around; align-items: center; padding: 0.5rem;">
+                    <div class="metric-card">
+                        <div class="metric-label">Response</div>
+                        <div class="metric-value" style="font-size: 1rem;" id="resp-time-val">14m</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-label">Tickets</div>
+                        <div class="metric-value" style="font-size: 1rem;" id="tickets-val">2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="intake-section">
+                <button class="close-btn" onclick="toggleIntake()">×</button>
+                <h2 style="margin-bottom: 1.5rem; color: var(--accent);">⚡ Get Your Free Marketing Sneak Peek</h2>
+                <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 1.5rem;">
+                    Fill this out and we'll generate a personalized sample campaign for your brand — in seconds. No commitment.
+                </p>
+                <form id="client-intake-form">
+                    <div class="form-group">
+                        <label>Your Name / Company</label>
+                        <input type="text" name="client_name" placeholder="e.g. PureBloom Skincare" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Top 3 Competitors</label>
+                        <input type="text" name="competitors" placeholder="e.g. Brand A, Brand B, Brand C">
+                    </div>
+                    <div class="form-group">
+                        <label>Target Audience — Who are you trying to reach?</label>
+                        <textarea name="target_audience" rows="2" placeholder="e.g. Health-conscious women 25-45 who care about ingredients"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Biggest Marketing Pain Point Right Now</label>
+                        <select name="pain_point">
+                            <option value="">Select one...</option>
+                            <option value="brand_awareness">Brand Awareness — nobody knows us</option>
+                            <option value="social_media">Social Media — low engagement, no growth</option>
+                            <option value="content_creation">Content Creation — can't produce enough</option>
+                            <option value="conversions">Conversions — traffic but no sales</option>
+                            <option value="consistency">Brand Consistency — messaging is all over the place</option>
+                            <option value="roi">ROI — can't prove marketing is working</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="social-channel-group" style="display: none;">
+                        <label>What's your primary social channel?</label>
+                        <select name="social_channel">
+                            <option value="">Select one...</option>
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="tiktok">TikTok</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="twitter">X / Twitter</option>
+                            <option value="youtube">YouTube</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Brand Guidelines or Website (optional)</label>
+                        <textarea name="brand_guidelines" rows="2" placeholder="Paste a short description of your brand voice or a link to your site"></textarea>
+                    </div>
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <button type="submit">🚀 Generate My Sneak Peek</button>
+                        <span style="color: var(--text-secondary); font-size: 0.75rem;">Takes ~30 seconds • No commitment</span>
+                    </div>
+                </form>
+            </div>
+
+    <script>
+        function toggleIntake() {
+            const section = document.getElementById('intake-section');
+            section.style.display = section.style.display === 'block' ? 'none' : 'block';
+        }
+
+                // Conditional logic: show social channel when pain_point is social_media
+        document.addEventListener('DOMContentLoaded', function() {
+            const painPointSelect = document.querySelector('select[name="pain_point"]');
+            const socialGroup = document.getElementById('social-channel-group');
+            if (painPointSelect && socialGroup) {
+                painPointSelect.addEventListener('change', function() {
+                    socialGroup.style.display = this.value === 'social_media' ? 'block' : 'none';
+                    if (this.value !== 'social_media') {
+                        socialGroup.querySelector('select').value = '';
+                    }
+                });
+            }
+        });
+
+        // Handle form submission
+        document.getElementById('client-intake-form').onsubmit = async function(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData.entries());
+            
+            try {
+                const response = await fetch('/submit_intake', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                if (response.ok) {
+                    alert('✅ Sneak peek submitted! Our swarm is generating your personalized preview.');
+                } else {
+                    alert('⚡ Intake received! Generating your preview now.');
+                }
+            } catch (err) {
+                console.error('Submission error:', err);
+                alert('⚡ Intake received! Generating your preview now.');
+            }
+            toggleIntake();
+        };
+
+// Fetch and update dashboard
+        async function updateDashboard() {
+            try {
+                const response = await fetch('dashboard_data.json?t=' + Date.now());
+                const data = await response.json();
+
+                // Global Status
+                document.getElementById('global-status-text').innerText = data.global_status;
+                const dot = document.getElementById('global-status-dot');
+                dot.style.backgroundColor = data.global_status === 'RED-LINE' ? 'var(--danger)' : 'var(--success)';
+                dot.style.boxShadow = `0 0 10px ${dot.style.backgroundColor}`;
+
+                // Agent List
+                const agentList = document.getElementById('agent-list');
+                agentList.innerHTML = data.agents.map(agent => `
+                    <div class="agent-item">
+                        <div class="agent-name">
+                            <span class="agent-indicator" style="background: ${agent.status === 'online' ? 'var(--success)' : 'var(--text-secondary)'}"></span>
+                            ${agent.name}
+                        </div>
+                        <div class="agent-task">${agent.task}</div>
+                    </div>
+                `).join('');
+
+                // Project List
+                const projectList = document.getElementById('project-list');
+                projectList.innerHTML = data.projects.map(proj => `
+                    <tr>
+                        <td>${proj.name}</td>
+                        <td><span class="status-tag ${proj.status}">${proj.status.toUpperCase()}</span></td>
+                        <td>${proj.lead}</td>
+                        <td>${proj.updated}</td>
+                    </tr>
+                `).join('');
+
+                // Red-Line
+                document.getElementById('red-line-val').innerText = data.red_line_status;
+                document.getElementById('red-line-val').style.color = data.red_line_status === 'CLEAR' ? 'var(--success)' : 'var(--danger)';
+
+                // Metrics
+                const metrics = data.metrics;
+                document.querySelector('.metric-card:nth-child(1) .metric-value').innerText = metrics.roas;
+                document.querySelector('.metric-card:nth-child(3) .metric-value').innerText = metrics.cac;
+                document.getElementById('health-score-val').innerText = data.health_score + '%';
+
+                // Health Gauge
+                const gauge = document.getElementById('health-gauge-fill');
+                const rotation = 45 + (data.health_score * 1.8);
+                gauge.style.transform = `rotate(${rotation}deg)`;
+
+                // Help Desk
+                document.getElementById('resp-time-val').innerText = metrics.avg_response_time;
+                document.getElementById('tickets-val').innerText = metrics.active_tickets;
+
+                // Daily Digest
+                const digestBody = document.getElementById('digest-body');
+                if (data.daily_digest) {
+                    digestBody.innerHTML = `<div style="color: var(--text-primary);">${marked.parse(data.daily_digest)}</div>`;
+                }
+
+                // Asset Previews
+                const assetList = document.getElementById('asset-list');
+                if (data.creative_assets && data.creative_assets.length > 0) {
+                    assetList.innerHTML = data.creative_assets.map(asset => `
+                        <div class="asset-thumb">${asset}</div>
+                    `).join('');
+                } else {
+                    assetList.innerHTML = '<div style="color: var(--text-secondary); font-size: 0.7rem; grid-column: 1 / -1; text-align: center;">No assets pending review.</div>';
+                }
+
+            } catch (err) {
+                console.error('Error updating dashboard:', err);
+            }
+        }
+
+        updateDashboard();
+        setInterval(updateDashboard, 5000);
+    </script>
+</body>
+</html>

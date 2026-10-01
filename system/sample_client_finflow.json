@@ -1,0 +1,82 @@
+{
+  "client_name": "FinFlow Accounting",
+  "brand_guidelines": {
+    "mission": "Simplifying financial management for freelancers and solopreneurs",
+    "vision": "A world where every freelancer can focus on their craft, not their bookkeeping",
+    "values": ["Clarity", "Empowerment", "Reliability", "Simplicity"],
+    "tagline": "Your money, made simple.",
+    "brand_promise": "We turn financial chaos into clarity with tools built for the way you actually work.",
+    "key_messages": [
+      "Bookkeeping that doesn't suck",
+      "Know exactly where your money is going",
+      "Tax season? We've got you covered",
+      "Built for freelancers, by freelancers"
+    ],
+    "competitors": ["QuickBooks", "FreshBooks", "Wave"],
+    "target_audience": {
+      "demographics": {
+        "age_range": "22-40",
+        "occupation": "Freelancers, independent contractors, solopreneurs",
+        "income": "$40K-$200K",
+        "industries": ["Creative", "Tech", "Consulting", "Gig Economy"]
+      },
+      "psychographics": {
+        "tech_savvy": "High — use multiple digital tools daily",
+        "decision_drivers": ["Time savings", "User experience", "Cost", "Mobile access"]
+      },
+      "pain_points": [
+        "Hate doing taxes",
+        "Spend hours on bookkeeping each month",
+        "Confused by accounting jargon",
+        "Worried about audit risk"
+      ],
+      "aspirations": [
+        "Spend less time on finances",
+        "Feel in control of money",
+        "Maximize tax deductions",
+        "Focus on creative work"
+      ]
+    }
+  },
+  "tone_of_voice": {
+    "personality": ["Direct", "Reassuring", "Witty", "No-nonsense"],
+    "voice_characteristics": "A straight-talking accountant who's also your biggest cheerleader. Cuts through the jargon, makes you feel capable.",
+    "tone_variations": {
+      "formal": "For tax documents and financial reports — precise, compliant, professional",
+      "casual": "For social media — punchy, funny, uses memes and pop culture references",
+      "urgent": "For tax deadline reminders — direct, action-oriented, creates urgency without panic",
+      "empathetic": "For onboarding and support — patient, celebrates progress, never judgmental"
+    },
+    "do_say": [
+      "You've got better things to do than bookkeeping",
+      "Save hours. Save money. Sleep better.",
+      "Tax simplified. Life simplified.",
+      "Your finances, finally under control"
+    ],
+    "dont_say": [
+      "Audit",
+      "You're doing it wrong",
+      "Penalty",
+      "Complicated process",
+      "Enterprise-grade"
+    ],
+    "vocabulary": {
+      "preferred_terms": ["Smart bookkeeping", "Expense tracking", "Tax-ready", "Financial clarity", "Time-saving"],
+      "avoid_terms": ["ERM", "Compliance framework", "GAAP", "Depreciation schedule", "Reconciliation"]
+    }
+  },
+  "visual_identity": {
+    "color_palette": {
+      "primary": ["#1565C0", "#0D47A1"],
+      "secondary": ["#00ACC1", "#00838F"],
+      "accent": ["#FF6F00", "#E65100"]
+    },
+    "typography": {
+      "headings": "DM Sans Bold, sans-serif",
+      "body": "DM Sans Regular, sans-serif"
+    },
+    "logo_usage": "Flow icon (three ascending lines) should always point upward-right. Clear space equals the height of the icon. Blue on white, white on blue backgrounds.",
+    "imagery_style": "Clean, organized desk setups. Real freelancers in their natural workspaces. Bright, airy photography with pops of blue and teal. Avoid cluttered finance imagery.",
+    "design_principles": ["Clean and minimal", "Data-rich but uncluttered", "Mobile-first", "Accessible typography"]
+  }
+}

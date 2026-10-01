@@ -1,0 +1,81 @@
+{
+  "client_name": "NovaTech Solutions",
+  "brand_guidelines": {
+    "mission": "Democratizing AI for small businesses",
+    "vision": "A world where every small business has enterprise-grade AI",
+    "values": ["Accessibility", "Innovation", "Trust", "Simplicity"],
+    "tagline": "AI That Works For You",
+    "brand_promise": "We make AI accessible, understandable, and profitable for small businesses.",
+    "key_messages": [
+      "No PhD required — AI that anyone can use",
+      "Your business data stays yours, always",
+      "From setup to ROI in under 30 days",
+      "Enterprise AI at small business prices"
+    ],
+    "competitors": ["OpenAI Business", "Google Cloud AI", "AWS AI Services"],
+    "target_audience": {
+      "demographics": {
+        "age_range": "28-55",
+        "business_size": "5-200 employees",
+        "industries": ["Retail", "Professional Services", "E-commerce", "Healthcare"],
+        "revenue": "$500K-$50M"
+      },
+      "psychographics": {
+        "tech_comfort": "Moderate — want AI benefits without complexity",
+        "decision_drivers": ["ROI clarity", "Ease of implementation", "Data privacy", "Support quality"]
+      },
+      "pain_points": [
+        "AI feels too complex and expensive",
+        "Data privacy concerns with big AI platforms",
+        "Can't justify enterprise AI budgets",
+        "No internal AI expertise"
+      ],
+      "aspirations": [
+        "Automate repetitive tasks",
+        "Get actionable insights from their data",
+        "Compete with larger companies using AI"
+      ]
+    }
+  },
+  "tone_of_voice": {
+    "personality": ["Confident", "Approachable", "Empathetic", "Clear"],
+    "voice_characteristics": "A knowledgeable friend who explains complex things simply. Never condescending. Always empowering.",
+    "tone_variations": {
+      "formal": "For whitepapers and case studies — data-driven, authoritative, but still accessible",
+      "casual": "For social media and blog posts — conversational, warm, uses 'you' and 'we'",
+      "urgent": "For limited-time offers — direct, benefit-focused, creates FOMO",
+      "empathetic": "For support and onboarding — reassuring, patient, celebrates small wins"
+    },
+    "do_say": [
+      "AI that works for you, not the other way around",
+      "We handle the complexity so you don't have to",
+      "Your data. Your control. Your insights.",
+      "Start small, scale smart"
+    ],
+    "dont_say": [
+      "Revolutionary",
+      "Game-changing",
+      "Disruptive",
+      "It's just like ChatGPT",
+      "You'll need a data science team"
+    ],
+    "vocabulary": {
+      "preferred_terms": ["AI assistant", "Smart automation", "Data insights", "Business intelligence", "No-code AI"],
+      "avoid_terms": ["LLM", "Neural network", "Deep learning", "Transformer model", "API integration"]
+    }
+  },
+  "visual_identity": {
+    "color_palette": {
+      "primary": ["#1A73E8", "#0D47A1"],
+      "secondary": ["#00C853", "#00BFA5"],
+      "accent": ["#FF6D00", "#FFAB00"]
+    },
+    "typography": {
+      "headings": "Inter Bold, sans-serif",
+      "body": "Inter Regular, sans-serif"
+    },
+    "logo_usage": "Logo should always have clear space equal to the height of the 'N'. Never stretch or distort. Use white logo on dark backgrounds, full-color on white.",
+    "imagery_style": "Clean, minimalist product shots with real people using technology. Warm lighting, diverse representation. Avoid generic stock photos of people staring at screens.",
+    "design_principles": ["Clean and uncluttered", "Accessible (WCAG AA minimum)", "Mobile-first responsive", "Data visualized simply"]
+  }
+}

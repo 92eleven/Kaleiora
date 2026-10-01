@@ -1,0 +1,122 @@
+{
+  "novatech-solutions": {
+    "client_name": "NovaTech Solutions",
+    "roas": {
+      "actual": 5.5,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 11.2,
+      "target": 10.0
+    },
+    "conversions": 342,
+    "impressions": 120500,
+    "spend": 3830.4,
+    "last_updated": "2026-06-05T03:18:38.808282Z"
+  },
+  "client-test-client-1780782922": {
+    "client_name": "Test Client",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-06T21:55:22.400152Z"
+  },
+  "client-test-client-1780782962": {
+    "client_name": "Test Client",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-06T21:56:02.781980Z"
+  },
+  "client-test-client-1780782982": {
+    "client_name": "Test Client",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-06T21:56:22.356964Z"
+  },
+  "client-test-client-1780782987": {
+    "client_name": "Test Client",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-06T21:56:27.419451Z"
+  },
+  "client-demo-brand-1780961831": {
+    "client_name": "demo-brand",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-08T23:37:11.669168Z"
+  },
+  "client-purebloom-skincare-1780961852": {
+    "client_name": "PureBloom Skincare",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-08T23:37:32.083142Z"
+  },
+  "client-luna-beauty-co-1780964442": {
+    "client_name": "Luna Beauty Co",
+    "roas": {
+      "actual": 0.0,
+      "target": 5.0
+    },
+    "cac": {
+      "actual": 0.0,
+      "target": 20.0
+    },
+    "conversions": 0,
+    "impressions": 0,
+    "spend": 0.0,
+    "last_updated": "2026-06-09T00:20:42.700239Z"
+  }
+}

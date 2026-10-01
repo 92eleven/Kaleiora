@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-06-05T03:15:00Z",
+    "score": 24,
+    "status": "RED-LINE"
+  },
+  {
+    "timestamp": "2026-06-05T03:23:00Z",
+    "score": 81,
+    "status": "OPTIMIZED"
+  },
+  {
+    "timestamp": "2026-06-06T20:55:12Z",
+    "score": 93,
+    "status": "OPTIMIZED"
+  }
+]

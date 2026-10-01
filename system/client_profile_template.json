@@ -1,0 +1,63 @@
+{
+  "client_id": "",
+  "client_name": "",
+  "status": "intake",
+  "created_at": "",
+  "updated_at": "",
+
+  "brand_guidelines": {
+    "mission": "",
+    "vision": "",
+    "values": [],
+    "tagline": "",
+    "brand_promise": "",
+    "key_messages": [],
+    "competitors": [],
+    "target_audience": {
+      "demographics": {},
+      "psychographics": {},
+      "pain_points": [],
+      "aspirations": []
+    }
+  },
+
+  "tone_of_voice": {
+    "personality": [],
+    "voice_characteristics": "",
+    "tone_variations": {
+      "formal": "",
+      "casual": "",
+      "urgent": "",
+      "empathetic": ""
+    },
+    "do_say": [],
+    "dont_say": [],
+    "vocabulary": {
+      "preferred_terms": [],
+      "avoid_terms": []
+    }
+  },
+
+  "visual_identity": {
+    "color_palette": {
+      "primary": [],
+      "secondary": [],
+      "accent": []
+    },
+    "typography": {
+      "headings": "",
+      "body": ""
+    },
+    "logo_usage": "",
+    "imagery_style": "",
+    "design_principles": []
+  },
+
+  "validated_assets": [],
+
+  "intake_data": {
+    "source": "",
+    "submitted_at": "",
+    "raw_data": {}
+  }
+}

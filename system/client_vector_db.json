@@ -1,0 +1,2356 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-06-08T23:40:30Z",
+  "clients": {
+    "client-novatech-solutions-demo": {
+      "client_name": "NovaTech Solutions",
+      "brand_guidelines": {
+        "mission": "Democratizing AI for small businesses",
+        "vision": "A world where every small business has enterprise-grade AI",
+        "values": [
+          "Accessibility",
+          "Innovation",
+          "Trust",
+          "Simplicity"
+        ],
+        "tagline": "AI That Works For You",
+        "brand_promise": "We make AI accessible, understandable, and profitable for small businesses.",
+        "key_messages": [
+          "No PhD required \u2014 AI that anyone can use",
+          "Your business data stays yours, always",
+          "From setup to ROI in under 30 days",
+          "Enterprise AI at small business prices"
+        ],
+        "competitors": [
+          "OpenAI Business",
+          "Google Cloud AI",
+          "AWS AI Services"
+        ],
+        "target_audience": {
+          "demographics": {
+            "age_range": "28-55",
+            "business_size": "5-200 employees",
+            "industries": [
+              "Retail",
+              "Professional Services",
+              "E-commerce",
+              "Healthcare"
+            ],
+            "revenue": "$500K-$50M"
+          },
+          "psychographics": {
+            "tech_comfort": "Moderate \u2014 want AI benefits without complexity",
+            "decision_drivers": [
+              "ROI clarity",
+              "Ease of implementation",
+              "Data privacy",
+              "Support quality"
+            ]
+          },
+          "pain_points": [
+            "AI feels too complex and expensive",
+            "Data privacy concerns with big AI platforms",
+            "Can't justify enterprise AI budgets",
+            "No internal AI expertise"
+          ],
+          "aspirations": [
+            "Automate repetitive tasks",
+            "Get actionable insights from their data",
+            "Compete with larger companies using AI"
+          ]
+        }
+      },
+      "tone_of_voice": {
+        "personality": [
+          "Confident",
+          "Approachable",
+          "Empathetic",
+          "Clear"
+        ],
+        "voice_characteristics": "A knowledgeable friend who explains complex things simply. Never condescending. Always empowering.",
+        "tone_variations": {
+          "formal": "For whitepapers and case studies \u2014 data-driven, authoritative, but still accessible",
+          "casual": "For social media and blog posts \u2014 conversational, warm, uses 'you' and 'we'",
+          "urgent": "For limited-time offers \u2014 direct, benefit-focused, creates FOMO",
+          "empathetic": "For support and onboarding \u2014 reassuring, patient, celebrates small wins"
+        },
+        "do_say": [
+          "AI that works for you, not the other way around",
+          "We handle the complexity so you don't have to",
+          "Your data. Your control. Your insights.",
+          "Start small, scale smart"
+        ],
+        "dont_say": [
+          "Revolutionary",
+          "Game-changing",
+          "Disruptive",
+          "It's just like ChatGPT",
+          "You'll need a data science team"
+        ],
+        "vocabulary": {
+          "preferred_terms": [
+            "AI assistant",
+            "Smart automation",
+            "Data insights",
+            "Business intelligence",
+            "No-code AI"
+          ],
+          "avoid_terms": [
+            "LLM",
+            "Neural network",
+            "Deep learning",
+            "Transformer model",
+            "API integration"
+          ]
+        }
+      },
+      "visual_identity": {
+        "color_palette": {
+          "primary": [
+            "#1A73E8",
+            "#0D47A1"
+          ],
+          "secondary": [
+            "#00C853",
+            "#00BFA5"
+          ],
+          "accent": [
+            "#FF6D00",
+            "#FFAB00"
+          ]
+        },
+        "typography": {
+          "headings": "Inter Bold, sans-serif",
+          "body": "Inter Regular, sans-serif"
+        },
+        "logo_usage": "Logo should always have clear space equal to the height of the 'N'. Never stretch or distort. Use white logo on dark backgrounds, full-color on white.",
+        "imagery_style": "Clean, minimalist product shots with real people using technology. Warm lighting, diverse representation. Avoid generic stock photos of people staring at screens.",
+        "design_principles": [
+          "Clean and uncluttered",
+          "Accessible (WCAG AA minimum)",
+          "Mobile-first responsive",
+          "Data visualized simply"
+        ]
+      },
+      "client_id": "client-novatech-solutions-demo",
+      "created_at": "2026-06-05T03:18:23Z",
+      "updated_at": "2026-06-08T23:36:53Z",
+      "status": "active",
+      "validated_assets": [
+        {
+          "type": "social",
+          "title": "NovaTech Launch Post - Instagram",
+          "content": "Stop wrestling with complicated AI tools. NovaTech's AI assistant handles the complexity so you can focus on what matters \u2014 your business. No data science team required. \ud83d\ude80 #SmartAutomation #BusinessIntelligence #NoCodeAI",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "asset_id": "9d970f71-7814-4130-818e-cc0517964f7c",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-05T03:18:30Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions - LinkedIn Thought Leadership Post",
+          "content": "Stop wrestling with complicated AI tools. NovaTech's AI assistant handles the complexity so you can focus on what matters \u2014 your business. No PhD required \u2014 AI that anyone can use. From setup to ROI in under 30 days. Your business data stays yours, always. #SmartAutomation #BusinessIntelligence #NoCodeAI",
+          "platform": "LinkedIn",
+          "cta": "Link in comments to start your free trial",
+          "asset_id": "9afcc571-a037-482b-ac96-4a49d3586d69",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T20:57:18Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16\nMeet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to.\nSmart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights.\nAll your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days.\nEnterprise AI at small business prices.\n\nSlide 5: Start small, scale smart.\nLink in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225424+00:00",
+          "asset_id": "ff65cc76-84a0-4c75-9011-941e9395d7a3",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16\nMeet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to.\nSmart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights.\nAll your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days.\nEnterprise AI at small business prices.\n\nSlide 5: Start small, scale smart.\nLink in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225424+00:00",
+          "asset_id": "d643a5bd-e6c2-492d-b4bf-cc8a2101135c",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        },
+        {
+          "type": "email",
+          "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+          "content": "Subject: Welcome to NovaTech \u2014 AI that works for you, not the other way around\n\nHi {{first_name}},\n\nWelcome to NovaTech Solutions.\n\nWe know you're busy running your business. The last thing you need is another complicated tool that takes months to figure out.\n\nThat's why we built an AI assistant that's genuinely easy to use. Our no-code AI platform gives you smart automation and real data insights \u2014 without the learning curve.\n\nHere's what happens next:\n\n\ud83d\udccb Step 1: Connect your data sources (5 minutes)\n\ud83e\udd16 Step 2: Your AI assistant starts learning your business patterns\n\ud83d\udcca Step 3: Get your first data insights within 24 hours\n\ud83d\udcb0 Step 4: From setup to ROI in under 30 days\n\nYour data stays yours, always. We handle the complexity so you don't have to.\n\nStart small, scale smart.\n\nReady to begin? Click below to complete your setup.\n\n[Start Your Free Trial \u2192]\n\n\u2014 The NovaTech Team",
+          "platform": "Email",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Empathetic tone variation. Uses all 4 do_say phrases. All 5 preferred terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI). Addresses pain points (complexity, time, expertise gap) and aspirations (actionable insights, automation).",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225560+00:00",
+          "asset_id": "bfaa0c45-60c2-4e27-8a4b-edd8ec876089",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "landing",
+          "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+          "content": "<!-- HERO SECTION -->\n<h1>AI That Works For You</h1>\n<p class=\"hero-subtitle\">Enterprise-grade business intelligence. No PhD required.</p>\n\n<p>NovaTech's no-code AI assistant gives you smart automation and real data insights \u2014 without the complexity. Your business data stays yours, always.</p>\n\n<a href=\"/signup\" class=\"cta-primary\">Start Your Free Trial \u2192</a>\n<p class=\"cta-note\">Setup in under 10 minutes. From setup to ROI in under 30 days.</p>\n\n<!-- VALUE PROPOSITION SECTION -->\n<div class=\"value-prop\">\n  <h2>We handle the complexity so you don't have to</h2>\n  <div class=\"benefits\">\n    <div class=\"benefit-card\">\n      <h3>\ud83e\udd16 No-Code AI Assistant</h3>\n      <p>Get started in minutes \u2014 no data science background needed.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udd12 Your Data. Your Control. Your Insights.</h3>\n      <p>Your business data stays yours, always. Zero compromise on privacy.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udcca Smart Automation & Business Intelligence</h3>\n      <p>Automate repetitive tasks and get actionable data insights daily.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\ude80 Start Small, Scale Smart</h3>\n      <p>Enterprise AI at small business prices. Grow at your pace.</p>\n    </div>\n  </div>\n</div>\n\n<!-- SOCIAL PROOF -->\n<section class=\"stats\">\n  <div class=\"stat\"><span class=\"number\">30 days</span><span class=\"label\">Setup to ROI</span></div>\n  <div class=\"stat\"><span class=\"number\">10 min</span><span class=\"label\">Average setup time</span></div>\n  <div class=\"stat\"><span class=\"number\">100%</span><span class=\"label\">Your data stays yours</span></div>\n</section>",
+          "platform": "Landing Page",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Full brand alignment. All 4 do_say phrases used as section headers. All 5 preferred terms present across sections. Progressive disclosure \u2014 starts with tagline and key messages, builds into features. NovaTech color scheme applied via CSS classes.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225633+00:00",
+          "asset_id": "540b4115-2995-46f5-8ba8-bffb8729d96e",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        },
+        {
+          "type": "ad",
+          "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+          "content": "Headline: AI That Works For You \u2014 Free Trial\n\nBody: Stop wrestling with complicated AI tools. Our no-code AI assistant delivers smart automation and business intelligence \u2014 without the learning curve. We handle the complexity so you don't have to. From setup to ROI in under 30 days.\n\nYour data stays yours, always. Start small, scale smart.\n\n\ud83d\udc49 Limited-time offer: First 30 days free. No credit card required.",
+          "platform": "LinkedIn | Instagram | Facebook",
+          "cta": "Claim Your Free Trial \u2192",
+          "brand_alignment_notes": "Urgent tone variation. Concise for ad format. Uses do_say and preferred vocabulary. Includes key messages about data privacy and fast ROI. Creates FOMO without pressure tactics.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225694+00:00",
+          "asset_id": "3c0d1c46-9ad0-4060-8040-a58ac70f9d91",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "video",
+          "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+          "content": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+          "platform": "Website | Social Media",
+          "cta": "Start Your Free Trial \u2192",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.231592+00:00",
+          "brand_alignment_notes": "Runway Gen-4 Turbo text-to-video. Visualizes do_say concepts: 'We handle the complexity', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Brand colors: blue primary, green secondary. Inter typography overlay. Diverse representation.",
+          "runway_generation": {
+            "id": "runway-bffccb0c61ba",
+            "type": "text_to_video",
+            "status": "complete",
+            "progress": 100,
+            "model": "gen-4-turbo",
+            "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+            "duration_seconds": 10,
+            "output_file": "/home/team/shared/creative_output/runway-bffccb0c61ba.mp4",
+            "credits_used": 5,
+            "generated_at": "2026-06-06T21:55:50.231272",
+            "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+            "_source_image": null
+          },
+          "asset_id": "05405f41-d869-4b20-98f1-13df7e086bc8",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+          "content": "AI That Works For You \u2014 No PhD required. Your data stays yours. Setup to ROI in 30 days.",
+          "platform": "LinkedIn",
+          "cta": "Link in bio to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.232271+00:00",
+          "brand_alignment_notes": "Canva-generated LinkedIn banner (1200x627). Brand colors applied: blue primary, green secondary, orange accent. Copy features key messages. Inter typography.",
+          "canva_generation": {
+            "id": "canva-graphic-b42af72f5d48",
+            "type": "canva_graphic",
+            "format": "linkedin",
+            "size": "1200x627",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#1A73E8",
+              "secondary": "#00C853",
+              "accent": "#FF6D00"
+            },
+            "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-b42af72f5d48.png",
+            "generated_at": "2026-06-06T21:55:50.231966",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "6354485a-b884-4cd0-a6cb-72e1c579d15c",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+          "content": "We handle the complexity so you don't have to. Your data. Your control. Your insights.",
+          "platform": "Instagram",
+          "cta": "Swipe up to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.232783+00:00",
+          "brand_alignment_notes": "Canva-generated Instagram Story (1080x1920). Dark blue primary, teal secondary. Copy features do_say phrases. Mobile-first design.",
+          "canva_generation": {
+            "id": "canva-graphic-c0bb3713b89a",
+            "type": "canva_graphic",
+            "format": "story",
+            "size": "1080x1920",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#0D47A1",
+              "secondary": "#00BFA5",
+              "accent": "#FFAB00"
+            },
+            "copy": "We handle the complexity so you don't have to.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-c0bb3713b89a.png",
+            "generated_at": "2026-06-06T21:55:50.232369",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "c9d210f4-32e4-42cc-aba2-6bbd831b24cc",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:55:50Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16\nMeet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to.\nSmart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights.\nAll your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days.\nEnterprise AI at small business prices.\n\nSlide 5: Start small, scale smart.\nLink in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.099029+00:00",
+          "asset_id": "85a9a1b6-e198-42c9-8cd3-cda9992b3cdb",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16\nMeet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to.\nSmart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights.\nAll your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days.\nEnterprise AI at small business prices.\n\nSlide 5: Start small, scale smart.\nLink in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.099029+00:00",
+          "asset_id": "da80530b-3a62-40ae-ad7c-dafe96db518f",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        },
+        {
+          "type": "email",
+          "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+          "content": "Subject: Welcome to NovaTech \u2014 AI that works for you, not the other way around\n\nHi {{first_name}},\n\nWelcome to NovaTech Solutions.\n\nWe know you're busy running your business. The last thing you need is another complicated tool that takes months to figure out.\n\nThat's why we built an AI assistant that's genuinely easy to use. Our no-code AI platform gives you smart automation and real data insights \u2014 without the learning curve.\n\nHere's what happens next:\n\n\ud83d\udccb Step 1: Connect your data sources (5 minutes)\n\ud83e\udd16 Step 2: Your AI assistant starts learning your business patterns\n\ud83d\udcca Step 3: Get your first data insights within 24 hours\n\ud83d\udcb0 Step 4: From setup to ROI in under 30 days\n\nYour data stays yours, always. We handle the complexity so you don't have to.\n\nStart small, scale smart.\n\nReady to begin? Click below to complete your setup.\n\n[Start Your Free Trial \u2192]\n\n\u2014 The NovaTech Team",
+          "platform": "Email",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Empathetic tone variation. Uses all 4 do_say phrases. All 5 preferred terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI). Addresses pain points (complexity, time, expertise gap) and aspirations (actionable insights, automation).",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.099187+00:00",
+          "asset_id": "9b8093fc-ea44-4624-ab32-7dbd7cae71d8",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "landing",
+          "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+          "content": "<!-- HERO SECTION -->\n<h1>AI That Works For You</h1>\n<p class=\"hero-subtitle\">Enterprise-grade business intelligence. No PhD required.</p>\n\n<p>NovaTech's no-code AI assistant gives you smart automation and real data insights \u2014 without the complexity. Your business data stays yours, always.</p>\n\n<a href=\"/signup\" class=\"cta-primary\">Start Your Free Trial \u2192</a>\n<p class=\"cta-note\">Setup in under 10 minutes. From setup to ROI in under 30 days.</p>\n\n<!-- VALUE PROPOSITION SECTION -->\n<div class=\"value-prop\">\n  <h2>We handle the complexity so you don't have to</h2>\n  <div class=\"benefits\">\n    <div class=\"benefit-card\">\n      <h3>\ud83e\udd16 No-Code AI Assistant</h3>\n      <p>Get started in minutes \u2014 no data science background needed.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udd12 Your Data. Your Control. Your Insights.</h3>\n      <p>Your business data stays yours, always. Zero compromise on privacy.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udcca Smart Automation & Business Intelligence</h3>\n      <p>Automate repetitive tasks and get actionable data insights daily.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\ude80 Start Small, Scale Smart</h3>\n      <p>Enterprise AI at small business prices. Grow at your pace.</p>\n    </div>\n  </div>\n</div>\n\n<!-- SOCIAL PROOF -->\n<section class=\"stats\">\n  <div class=\"stat\"><span class=\"number\">30 days</span><span class=\"label\">Setup to ROI</span></div>\n  <div class=\"stat\"><span class=\"number\">10 min</span><span class=\"label\">Average setup time</span></div>\n  <div class=\"stat\"><span class=\"number\">100%</span><span class=\"label\">Your data stays yours</span></div>\n</section>",
+          "platform": "Landing Page",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Full brand alignment. All 4 do_say phrases used as section headers. All 5 preferred terms present across sections. Progressive disclosure \u2014 starts with tagline and key messages, builds into features. NovaTech color scheme applied via CSS classes.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.099253+00:00",
+          "asset_id": "4e77fceb-22d4-4beb-9661-0e4f64ba100d",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        },
+        {
+          "type": "ad",
+          "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+          "content": "Headline: AI That Works For You \u2014 Free Trial\n\nBody: Stop wrestling with complicated AI tools. Our no-code AI assistant delivers smart automation and business intelligence \u2014 without the learning curve. We handle the complexity so you don't have to. From setup to ROI in under 30 days.\n\nYour data stays yours, always. Start small, scale smart.\n\n\ud83d\udc49 Limited-time offer: First 30 days free. No credit card required.",
+          "platform": "LinkedIn | Instagram | Facebook",
+          "cta": "Claim Your Free Trial \u2192",
+          "brand_alignment_notes": "Urgent tone variation. Concise for ad format. Uses do_say and preferred vocabulary. Includes key messages about data privacy and fast ROI. Creates FOMO without pressure tactics.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.099425+00:00",
+          "asset_id": "11725fa4-66dc-4189-bfee-eea4b0df91d4",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "video",
+          "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+          "content": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+          "platform": "Website | Social Media",
+          "cta": "Start Your Free Trial \u2192",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.105024+00:00",
+          "brand_alignment_notes": "Runway Gen-4 Turbo text-to-video. Visualizes do_say concepts: 'We handle the complexity', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Brand colors: blue primary, green secondary. Inter typography overlay. Diverse representation.",
+          "runway_generation": {
+            "id": "runway-62caba66e7c9",
+            "type": "text_to_video",
+            "status": "complete",
+            "progress": 100,
+            "model": "gen-4-turbo",
+            "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+            "duration_seconds": 10,
+            "output_file": "/home/team/shared/creative_output/runway-62caba66e7c9.mp4",
+            "credits_used": 5,
+            "generated_at": "2026-06-06T21:56:37.104677",
+            "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+            "_source_image": null
+          },
+          "asset_id": "a848ba11-ed76-464f-b803-fe8d8cee0f98",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+          "content": "AI That Works For You \u2014 No PhD required. Your data stays yours. Setup to ROI in 30 days.",
+          "platform": "LinkedIn",
+          "cta": "Link in bio to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.105796+00:00",
+          "brand_alignment_notes": "Canva-generated LinkedIn banner (1200x627). Brand colors applied: blue primary, green secondary, orange accent. Copy features key messages. Inter typography.",
+          "canva_generation": {
+            "id": "canva-graphic-9f17fb4f316a",
+            "type": "canva_graphic",
+            "format": "linkedin",
+            "size": "1200x627",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#1A73E8",
+              "secondary": "#00C853",
+              "accent": "#FF6D00"
+            },
+            "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-9f17fb4f316a.png",
+            "generated_at": "2026-06-06T21:56:37.105451",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "707161aa-3e9c-4236-97dc-8943deeaad56",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+          "content": "We handle the complexity so you don't have to. Your data. Your control. Your insights.",
+          "platform": "Instagram",
+          "cta": "Swipe up to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:56:37.106381+00:00",
+          "brand_alignment_notes": "Canva-generated Instagram Story (1080x1920). Dark blue primary, teal secondary. Copy features do_say phrases. Mobile-first design.",
+          "canva_generation": {
+            "id": "canva-graphic-a511c642749a",
+            "type": "canva_graphic",
+            "format": "story",
+            "size": "1080x1920",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#0D47A1",
+              "secondary": "#00BFA5",
+              "accent": "#FFAB00"
+            },
+            "copy": "We handle the complexity so you don't have to.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-a511c642749a.png",
+            "generated_at": "2026-06-06T21:56:37.105987",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "bbfb0f31-4660-4fbf-8c52-ce715050e5db",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-06T21:56:37Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content"
+        },
+        {
+          "type": "social_instagram",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel (5 slides)",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16 Meet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to. Smart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights. All your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days. Enterprise AI at small business prices.\n\nSlide 5: Start small, scale smart. Link in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:00+00:00",
+          "brand_alignment_notes": "Slides use all do_say phrases, all preferred vocabulary terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI), all key messages. Memorable and scannable for Instagram audience.",
+          "asset_id": "9e426e2c-1d98-4981-9f67-8d0a748149c5",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:44Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        },
+        {
+          "type": "social_linkedin",
+          "title": "NovaTech Solutions \u2014 AI That Works For You (LinkedIn Thought Leadership)",
+          "content": "AI that works for you, not the other way around.\n\nThat's the philosophy behind everything we build at NovaTech Solutions.\n\nWe hear it every day from small business owners: \"AI feels like it's designed for enterprises with dedicated data science teams \u2014 not for us.\"\n\nSo we built something different. Our no-code AI assistant gives you smart automation and real data insights \u2014 without the complexity. Your business data stays yours, always. We handle the complexity so you don't have to.\n\nYour data. Your control. Your insights.\n\nFrom setup to ROI in under 30 days. Enterprise-grade business intelligence at prices that make sense for growing businesses. No PhD required \u2014 AI that anyone can use.\n\nStart small, scale smart. See what NovaTech's AI assistant can do for your business.",
+          "platform": "LinkedIn",
+          "cta": "Click the link in the comments to start your free trial \u2014 setup takes under 10 minutes",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:00+00:00",
+          "brand_alignment_notes": "Uses all 4 do_say phrases: 'AI that works for you, not the other way around', 'We handle the complexity so you don't have to', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Uses all 5 preferred terms: AI assistant, Smart automation, Data insights, Business intelligence, No-code AI. Reflects all 4 key messages. Zero dont_say or avoid_terms violations.",
+          "asset_id": "889d1438-01cc-4898-ac01-ed52973cda17",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:44Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE - All brand checks passed"
+        },
+        {
+          "type": "ad",
+          "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+          "content": "Headline: AI That Works For You \u2014 Free Trial\n\nBody: Stop wrestling with complicated AI tools. Our no-code AI assistant delivers smart automation and business intelligence \u2014 without the learning curve. We handle the complexity so you don't have to. From setup to ROI in under 30 days.\n\nYour data stays yours, always. Start small, scale smart.\n\n\ud83d\udc49 Limited-time offer: First 30 days free. No credit card required.",
+          "platform": "LinkedIn | Instagram | Facebook",
+          "cta": "Claim Your Free Trial \u2192",
+          "brand_alignment_notes": "Urgent tone variation. Concise for ad format. Uses do_say and preferred vocabulary. Includes key messages about data privacy and fast ROI. Creates FOMO without pressure tactics.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225694+00:00",
+          "asset_id": "ed2b1caa-f13b-42d2-a332-c3cf46f1dc24",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:52Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "email",
+          "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+          "content": "Subject: Welcome to NovaTech \u2014 AI that works for you, not the other way around\n\nHi {{first_name}},\n\nWelcome to NovaTech Solutions.\n\nWe know you're busy running your business. The last thing you need is another complicated tool that takes months to figure out.\n\nThat's why we built an AI assistant that's genuinely easy to use. Our no-code AI platform gives you smart automation and real data insights \u2014 without the learning curve.\n\nHere's what happens next:\n\n\ud83d\udccb Step 1: Connect your data sources (5 minutes)\n\ud83e\udd16 Step 2: Your AI assistant starts learning your business patterns\n\ud83d\udcca Step 3: Get your first data insights within 24 hours\n\ud83d\udcb0 Step 4: From setup to ROI in under 30 days\n\nYour data stays yours, always. We handle the complexity so you don't have to.\n\nStart small, scale smart.\n\nReady to begin? Click below to complete your setup.\n\n[Start Your Free Trial \u2192]\n\n\u2014 The NovaTech Team",
+          "platform": "Email",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Empathetic tone variation. Uses all 4 do_say phrases. All 5 preferred terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI). Addresses pain points (complexity, time, expertise gap) and aspirations (actionable insights, automation).",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225560+00:00",
+          "asset_id": "3471c0a8-bcd2-4f09-bd0c-dc88f93bd9e4",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+          "content": "AI That Works For You \u2014 No PhD required. Your data stays yours. Setup to ROI in 30 days.",
+          "platform": "LinkedIn",
+          "cta": "Link in bio to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.232271+00:00",
+          "brand_alignment_notes": "Canva-generated LinkedIn banner (1200x627). Brand colors applied: blue primary, green secondary, orange accent. Copy features key messages. Inter typography.",
+          "canva_generation": {
+            "id": "canva-graphic-b42af72f5d48",
+            "type": "canva_graphic",
+            "format": "linkedin",
+            "size": "1200x627",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#1A73E8",
+              "secondary": "#00C853",
+              "accent": "#FF6D00"
+            },
+            "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-b42af72f5d48.png",
+            "generated_at": "2026-06-06T21:55:50.231966",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "4f3d194c-809f-4b3b-9a0b-b56ac448c9db",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+          "content": "We handle the complexity so you don't have to. Your data. Your control. Your insights.",
+          "platform": "Instagram",
+          "cta": "Swipe up to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.232783+00:00",
+          "brand_alignment_notes": "Canva-generated Instagram Story (1080x1920). Dark blue primary, teal secondary. Copy features do_say phrases. Mobile-first design.",
+          "canva_generation": {
+            "id": "canva-graphic-c0bb3713b89a",
+            "type": "canva_graphic",
+            "format": "story",
+            "size": "1080x1920",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#0D47A1",
+              "secondary": "#00BFA5",
+              "accent": "#FFAB00"
+            },
+            "copy": "We handle the complexity so you don't have to.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-c0bb3713b89a.png",
+            "generated_at": "2026-06-06T21:55:50.232369",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "d537ae41-0b06-49bf-879d-1b06ee94f711",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content"
+        },
+        {
+          "type": "landing",
+          "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+          "content": "<!-- HERO SECTION -->\n<h1>AI That Works For You</h1>\n<p class=\"hero-subtitle\">Enterprise-grade business intelligence. No PhD required.</p>\n\n<p>NovaTech's no-code AI assistant gives you smart automation and real data insights \u2014 without the complexity. Your business data stays yours, always.</p>\n\n<a href=\"/signup\" class=\"cta-primary\">Start Your Free Trial \u2192</a>\n<p class=\"cta-note\">Setup in under 10 minutes. From setup to ROI in under 30 days.</p>\n\n<!-- VALUE PROPOSITION SECTION -->\n<div class=\"value-prop\">\n  <h2>We handle the complexity so you don't have to</h2>\n  <div class=\"benefits\">\n    <div class=\"benefit-card\">\n      <h3>\ud83e\udd16 No-Code AI Assistant</h3>\n      <p>Get started in minutes \u2014 no data science background needed.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udd12 Your Data. Your Control. Your Insights.</h3>\n      <p>Your business data stays yours, always. Zero compromise on privacy.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udcca Smart Automation & Business Intelligence</h3>\n      <p>Automate repetitive tasks and get actionable data insights daily.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\ude80 Start Small, Scale Smart</h3>\n      <p>Enterprise AI at small business prices. Grow at your pace.</p>\n    </div>\n  </div>\n</div>\n\n<!-- SOCIAL PROOF -->\n<section class=\"stats\">\n  <div class=\"stat\"><span class=\"number\">30 days</span><span class=\"label\">Setup to ROI</span></div>\n  <div class=\"stat\"><span class=\"number\">10 min</span><span class=\"label\">Average setup time</span></div>\n  <div class=\"stat\"><span class=\"number\">100%</span><span class=\"label\">Your data stays yours</span></div>\n</section>",
+          "platform": "Landing Page",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Full brand alignment. All 4 do_say phrases used as section headers. All 5 preferred terms present across sections. Progressive disclosure \u2014 starts with tagline and key messages, builds into features. NovaTech color scheme applied via CSS classes.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225633+00:00",
+          "asset_id": "9d0ff435-8cc6-4f1f-a62a-26b5a933d388",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16\nMeet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to.\nSmart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights.\nAll your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days.\nEnterprise AI at small business prices.\n\nSlide 5: Start small, scale smart.\nLink in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.225424+00:00",
+          "asset_id": "60e728f7-1636-4cf9-96b8-52ccce7fd686",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        },
+        {
+          "type": "video",
+          "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+          "content": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+          "platform": "Website | Social Media",
+          "cta": "Start Your Free Trial \u2192",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:50.231592+00:00",
+          "brand_alignment_notes": "Runway Gen-4 Turbo text-to-video. Visualizes do_say concepts: 'We handle the complexity', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Brand colors: blue primary, green secondary. Inter typography overlay. Diverse representation.",
+          "runway_generation": {
+            "id": "runway-bffccb0c61ba",
+            "type": "text_to_video",
+            "status": "complete",
+            "progress": 100,
+            "model": "gen-4-turbo",
+            "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+            "duration_seconds": 10,
+            "output_file": "/home/team/shared/creative_output/runway-bffccb0c61ba.mp4",
+            "credits_used": 5,
+            "generated_at": "2026-06-06T21:55:50.231272",
+            "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+            "_source_image": null
+          },
+          "asset_id": "95684606-dab7-4d30-bd06-c11a26a1e139",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:35:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        },
+        {
+          "type": "ad",
+          "title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+          "content": "Headline: AI That Works For You \u2014 Free Trial\n\nBody: Stop wrestling with complicated AI tools. Our no-code AI assistant delivers smart automation and business intelligence \u2014 without the learning curve. We handle the complexity so you don't have to. From setup to ROI in under 30 days.\n\nYour data stays yours, always. Start small, scale smart.\n\n\ud83d\udc49 Limited-time offer: First 30 days free. No credit card required.",
+          "platform": "LinkedIn | Instagram | Facebook",
+          "cta": "Claim Your Free Trial \u2192",
+          "brand_alignment_notes": "Urgent tone variation. Concise for ad format. Uses do_say and preferred vocabulary. Includes key messages about data privacy and fast ROI. Creates FOMO without pressure tactics.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.246418+00:00",
+          "asset_id": "90db15c2-5499-4961-8fc1-7ff881d78524",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "email",
+          "title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+          "content": "Subject: Welcome to NovaTech \u2014 AI that works for you, not the other way around\n\nHi {{first_name}},\n\nWelcome to NovaTech Solutions.\n\nWe know you're busy running your business. The last thing you need is another complicated tool that takes months to figure out.\n\nThat's why we built an AI assistant that's genuinely easy to use. Our no-code AI platform gives you smart automation and real data insights \u2014 without the learning curve.\n\nHere's what happens next:\n\n\ud83d\udccb Step 1: Connect your data sources (5 minutes)\n\ud83e\udd16 Step 2: Your AI assistant starts learning your business patterns\n\ud83d\udcca Step 3: Get your first data insights within 24 hours\n\ud83d\udcb0 Step 4: From setup to ROI in under 30 days\n\nYour data stays yours, always. We handle the complexity so you don't have to.\n\nStart small, scale smart.\n\nReady to begin? Click below to complete your setup.\n\n[Start Your Free Trial \u2192]\n\n\u2014 The NovaTech Team",
+          "platform": "Email",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Empathetic tone variation. Uses all 4 do_say phrases. All 5 preferred terms (AI assistant, Smart automation, Data insights, Business intelligence, No-code AI). Addresses pain points (complexity, time, expertise gap) and aspirations (actionable insights, automation).",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.246296+00:00",
+          "asset_id": "6aa36e35-5e42-4861-9476-62e865c73a7e",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+          "content": "AI That Works For You \u2014 No PhD required. Your data stays yours. Setup to ROI in 30 days.",
+          "platform": "LinkedIn",
+          "cta": "Link in bio to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.273288+00:00",
+          "brand_alignment_notes": "Canva-generated LinkedIn banner (1200x627). Brand colors applied: blue primary, green secondary, orange accent. Copy features key messages. Inter typography.",
+          "canva_generation": {
+            "id": "canva-graphic-7271e6cd466c",
+            "type": "canva_graphic",
+            "format": "linkedin",
+            "size": "1200x627",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#1A73E8",
+              "secondary": "#00C853",
+              "accent": "#FF6D00"
+            },
+            "copy": "AI That Works For You\nNo PhD required. Your data stays yours. Setup to ROI in 30 days.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-7271e6cd466c.png",
+            "generated_at": "2026-06-06T21:55:39.267704",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "5e9f4420-3941-49f3-84d5-c6bb16446600",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+          "content": "We handle the complexity so you don't have to. Your data. Your control. Your insights.",
+          "platform": "Instagram",
+          "cta": "Swipe up to start your free trial",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.273653+00:00",
+          "brand_alignment_notes": "Canva-generated Instagram Story (1080x1920). Dark blue primary, teal secondary. Copy features do_say phrases. Mobile-first design.",
+          "canva_generation": {
+            "id": "canva-graphic-bbf9f0053302",
+            "type": "canva_graphic",
+            "format": "story",
+            "size": "1080x1920",
+            "status": "mock",
+            "brand_colors": {
+              "primary": "#0D47A1",
+              "secondary": "#00BFA5",
+              "accent": "#FFAB00"
+            },
+            "copy": "We handle the complexity so you don't have to.",
+            "output_format": "png",
+            "output_file": "/home/team/shared/creative_output/canva-graphic-bbf9f0053302.png",
+            "generated_at": "2026-06-06T21:55:39.273410",
+            "_note": "MOCK RESULT - Configure Canva API key for real designs"
+          },
+          "asset_id": "38ec78d3-68d0-4a45-a705-151282986482",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content"
+        },
+        {
+          "type": "landing",
+          "title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+          "content": "<!-- HERO SECTION -->\n<h1>AI That Works For You</h1>\n<p class=\"hero-subtitle\">Enterprise-grade business intelligence. No PhD required.</p>\n\n<p>NovaTech's no-code AI assistant gives you smart automation and real data insights \u2014 without the complexity. Your business data stays yours, always.</p>\n\n<a href=\"/signup\" class=\"cta-primary\">Start Your Free Trial \u2192</a>\n<p class=\"cta-note\">Setup in under 10 minutes. From setup to ROI in under 30 days.</p>\n\n<!-- VALUE PROPOSITION SECTION -->\n<div class=\"value-prop\">\n  <h2>We handle the complexity so you don't have to</h2>\n  <div class=\"benefits\">\n    <div class=\"benefit-card\">\n      <h3>\ud83e\udd16 No-Code AI Assistant</h3>\n      <p>Get started in minutes \u2014 no data science background needed.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udd12 Your Data. Your Control. Your Insights.</h3>\n      <p>Your business data stays yours, always. Zero compromise on privacy.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\udcca Smart Automation & Business Intelligence</h3>\n      <p>Automate repetitive tasks and get actionable data insights daily.</p>\n    </div>\n    <div class=\"benefit-card\">\n      <h3>\ud83d\ude80 Start Small, Scale Smart</h3>\n      <p>Enterprise AI at small business prices. Grow at your pace.</p>\n    </div>\n  </div>\n</div>\n\n<!-- SOCIAL PROOF -->\n<section class=\"stats\">\n  <div class=\"stat\"><span class=\"number\">30 days</span><span class=\"label\">Setup to ROI</span></div>\n  <div class=\"stat\"><span class=\"number\">10 min</span><span class=\"label\">Average setup time</span></div>\n  <div class=\"stat\"><span class=\"number\">100%</span><span class=\"label\">Your data stays yours</span></div>\n</section>",
+          "platform": "Landing Page",
+          "cta": "Start Your Free Trial \u2192",
+          "brand_alignment_notes": "Full brand alignment. All 4 do_say phrases used as section headers. All 5 preferred terms present across sections. Progressive disclosure \u2014 starts with tagline and key messages, builds into features. NovaTech color scheme applied via CSS classes.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.246363+00:00",
+          "asset_id": "5282d614-3ef0-4a57-ba30-cd42fc6f1b76",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        },
+        {
+          "type": "social",
+          "title": "NovaTech Solutions \u2014 Instagram Carousel",
+          "content": "Slide 1: Tired of complicated AI tools? \ud83e\udd16\nMeet NovaTech \u2014 your no-code AI assistant that actually works for you.\n\nSlide 2: We handle the complexity so you don't have to.\nSmart automation for your business \u2014 no PhD required.\n\nSlide 3: Your data. Your control. Your insights.\nAll your business intelligence stays yours, always. \ud83d\udd12\n\nSlide 4: From setup to ROI in under 30 days.\nEnterprise AI at small business prices.\n\nSlide 5: Start small, scale smart.\nLink in bio to start your free trial \u2192",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "brand_alignment_notes": "Slides use all do_say phrases, preferred vocabulary terms (AI assistant, Smart automation, Business intelligence, No-code AI), key messages. Memorable and scannable for Instagram audience.",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.246175+00:00",
+          "asset_id": "03dc2000-b086-43d6-ae7d-3e185de73997",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        },
+        {
+          "type": "video",
+          "title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+          "content": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+          "platform": "Website | Social Media",
+          "cta": "Start Your Free Trial \u2192",
+          "client_id": "client-novatech-solutions-demo",
+          "generated_at": "2026-06-06T21:55:39.267335+00:00",
+          "brand_alignment_notes": "Runway Gen-4 Turbo text-to-video. Visualizes do_say concepts: 'We handle the complexity', 'Your data. Your control. Your insights.', 'Start small, scale smart'. Brand colors: blue primary, green secondary. Inter typography overlay. Diverse representation.",
+          "runway_generation": {
+            "id": "runway-3badaab812af",
+            "type": "text_to_video",
+            "status": "complete",
+            "progress": 100,
+            "model": "gen-4-turbo",
+            "prompt": "Smooth animated product demonstration for NovaTech Solutions \u2014 a clean, minimalist interface shows small business data transforming into actionable insights. Blue (#1A73E8) and green (#00C853) neon glow elements on dark background. Text overlay: 'AI That Works For You \u2014 No PhD Required' fades in. Diverse small business team looking at dashboard, warm lighting. Final frame shows logo with tagline: 'Start Small, Scale Smart'",
+            "duration_seconds": 10,
+            "output_file": "/home/team/shared/creative_output/runway-3badaab812af.mp4",
+            "credits_used": 5,
+            "generated_at": "2026-06-06T21:55:39.266645",
+            "_note": "MOCK RESULT - Configure Runway API key in config/api_keys.json for real generations",
+            "_source_image": null
+          },
+          "asset_id": "aa121690-ab2a-48c6-91ba-653a01419789",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:36:53Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        }
+      ],
+      "intake_data": {
+        "submitted_at": "2026-06-05T03:18:23Z",
+        "source": "demo_setup"
+      },
+      "campaigns": [
+        {
+          "campaign_id": "eef6d932-d6f3-4f0f-8a35-50846c05e9fb",
+          "name": "Q3 Launch Campaign",
+          "status": "active",
+          "start_date": "2026-06-08T23:34:20Z",
+          "end_date": "",
+          "channels": [],
+          "objectives": [],
+          "budget": 0,
+          "current_roas": 0,
+          "assets": [],
+          "kpis": {
+            "impressions": 0,
+            "clicks": 0,
+            "conversions": 0,
+            "spend": 0
+          }
+        }
+      ]
+    },
+    "client-greenleaf-organics-demo": {
+      "client_name": "GreenLeaf Organics",
+      "brand_guidelines": {
+        "mission": "Making organic food accessible to every family",
+        "vision": "A world where healthy eating is the easy choice",
+        "values": [
+          "Sustainability",
+          "Transparency",
+          "Community",
+          "Wellness"
+        ],
+        "tagline": "Real Food. Real Simple.",
+        "brand_promise": "We make eating organic convenient, affordable, and trustworthy.",
+        "key_messages": [
+          "Know exactly where your food comes from",
+          "Farm-to-table, delivered to your door",
+          "Organic doesn't have to be complicated",
+          "Good for you. Good for the planet."
+        ],
+        "competitors": [
+          "Whole Foods",
+          "Thrive Market",
+          "Imperfect Foods"
+        ],
+        "target_audience": {
+          "demographics": {
+            "age_range": "25-45",
+            "income": "$60K-$150K",
+            "family_status": "Health-conscious individuals and families",
+            "locations": [
+              "Urban",
+              "Suburban"
+            ]
+          },
+          "psychographics": {
+            "values_driven": "Environmental sustainability is a purchase driver",
+            "decision_drivers": [
+              "Ingredient transparency",
+              "Convenience",
+              "Value",
+              "Environmental impact"
+            ]
+          },
+          "pain_points": [
+            "Organic food is too expensive",
+            "Don't know which brands to trust",
+            "No time to research food sources",
+            "Grocery delivery takes too long"
+          ],
+          "aspirations": [
+            "Feed family healthy meals without stress",
+            "Reduce environmental footprint",
+            "Support sustainable farming"
+          ]
+        }
+      },
+      "tone_of_voice": {
+        "personality": [
+          "Warm",
+          "Trustworthy",
+          "Encouraging",
+          "Down-to-earth"
+        ],
+        "voice_characteristics": "A friendly nutritionist neighbor who makes healthy living feel achievable, not overwhelming.",
+        "tone_variations": {
+          "formal": "For sustainability reports \u2014 data-driven, transparent, authoritative",
+          "casual": "For social media \u2014 warm, uses emojis naturally, speaks like a friend",
+          "urgent": "For limited harvests \u2014 excitement about freshness, seasonal availability",
+          "empathetic": "For overwhelmed parents \u2014 reassuring, practical, celebrates small wins"
+        },
+        "do_say": [
+          "Know your farmer. Know your food.",
+          "Fresh from the farm to your table",
+          "Every bite makes a difference",
+          "Healthy choices made simple"
+        ],
+        "dont_say": [
+          "Superfood",
+          "Detox",
+          "Miracle",
+          "Clean eating",
+          "You should"
+        ],
+        "vocabulary": {
+          "preferred_terms": [
+            "Farm-fresh",
+            "Seasonal produce",
+            "Sustainable sourcing",
+            "Organic essentials",
+            "Responsibly grown"
+          ],
+          "avoid_terms": [
+            "Superfood",
+            "Cleanse",
+            "Diet",
+            "Non-GMO",
+            "Gluten-free"
+          ]
+        }
+      },
+      "visual_identity": {
+        "color_palette": {
+          "primary": [
+            "#2E7D32",
+            "#1B5E20"
+          ],
+          "secondary": [
+            "#FF8F00",
+            "#F9A825"
+          ],
+          "accent": [
+            "#8D6E63",
+            "#A1887F"
+          ]
+        },
+        "typography": {
+          "headings": "Lora Bold, serif",
+          "body": "Nunito Regular, sans-serif"
+        },
+        "logo_usage": "Leaf icon should always face right. Minimum clear space equals the width of the leaf. Use white on green backgrounds, full-color on white or light backgrounds.",
+        "imagery_style": "Natural lighting photos of real farms and families. Warm, earthy tones. Unfiltered, authentic food photography. Avoid sterile studio shots.",
+        "design_principles": [
+          "Warm and organic",
+          "Texture-rich",
+          "Storytelling through imagery",
+          "Approachable sophistication"
+        ]
+      },
+      "client_id": "client-greenleaf-organics-demo",
+      "created_at": "2026-06-06T21:58:04Z",
+      "updated_at": "2026-06-08T23:34:45Z",
+      "status": "active",
+      "validated_assets": [
+        {
+          "type": "social",
+          "title": "NovaTech Launch Post - Instagram",
+          "content": "Stop wrestling with complicated AI tools. NovaTech's AI assistant handles the complexity so you can focus on what matters \u2014 your business. No data science team required. \ud83d\ude80 #SmartAutomation #BusinessIntelligence #NoCodeAI",
+          "platform": "Instagram",
+          "cta": "Link in bio to start your free trial",
+          "asset_id": "1893c9e4-75db-4f18-9c8c-0fe2efda3081",
+          "created_by": "quality_gate",
+          "validated_at": "2026-06-08T23:34:45Z",
+          "approved": true,
+          "delivered_at": null,
+          "validation_notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Know your farmer. Know your food.\" from do_say recommendations; TONE SUGGESTION: Content could include \"Fresh from the farm to your table\" from do_say recommendations; TONE SUGGESTION: Content could include \"Every bite makes a difference\" from do_say recommendations"
+        }
+      ],
+      "intake_data": {
+        "submitted_at": "2026-06-06T21:58:04Z",
+        "source": "multi_tenant_setup"
+      },
+      "campaigns": [
+        {
+          "campaign_id": "7b7e5f68-6710-4f7b-ab85-b79b5c24d6a6",
+          "name": "Summer Harvest",
+          "status": "planning",
+          "start_date": "",
+          "end_date": "",
+          "channels": [],
+          "objectives": [],
+          "budget": 0,
+          "current_roas": 0,
+          "assets": [],
+          "kpis": {
+            "impressions": 0,
+            "clicks": 0,
+            "conversions": 0,
+            "spend": 0
+          }
+        }
+      ]
+    },
+    "client-finflow-accounting-demo": {
+      "client_name": "FinFlow Accounting",
+      "brand_guidelines": {
+        "mission": "Simplifying financial management for freelancers and solopreneurs",
+        "vision": "A world where every freelancer can focus on their craft, not their bookkeeping",
+        "values": [
+          "Clarity",
+          "Empowerment",
+          "Reliability",
+          "Simplicity"
+        ],
+        "tagline": "Your money, made simple.",
+        "brand_promise": "We turn financial chaos into clarity with tools built for the way you actually work.",
+        "key_messages": [
+          "Bookkeeping that doesn't suck",
+          "Know exactly where your money is going",
+          "Tax season? We've got you covered",
+          "Built for freelancers, by freelancers"
+        ],
+        "competitors": [
+          "QuickBooks",
+          "FreshBooks",
+          "Wave"
+        ],
+        "target_audience": {
+          "demographics": {
+            "age_range": "22-40",
+            "occupation": "Freelancers, independent contractors, solopreneurs",
+            "income": "$40K-$200K",
+            "industries": [
+              "Creative",
+              "Tech",
+              "Consulting",
+              "Gig Economy"
+            ]
+          },
+          "psychographics": {
+            "tech_savvy": "High \u2014 use multiple digital tools daily",
+            "decision_drivers": [
+              "Time savings",
+              "User experience",
+              "Cost",
+              "Mobile access"
+            ]
+          },
+          "pain_points": [
+            "Hate doing taxes",
+            "Spend hours on bookkeeping each month",
+            "Confused by accounting jargon",
+            "Worried about audit risk"
+          ],
+          "aspirations": [
+            "Spend less time on finances",
+            "Feel in control of money",
+            "Maximize tax deductions",
+            "Focus on creative work"
+          ]
+        }
+      },
+      "tone_of_voice": {
+        "personality": [
+          "Direct",
+          "Reassuring",
+          "Witty",
+          "No-nonsense"
+        ],
+        "voice_characteristics": "A straight-talking accountant who's also your biggest cheerleader. Cuts through the jargon, makes you feel capable.",
+        "tone_variations": {
+          "formal": "For tax documents and financial reports \u2014 precise, compliant, professional",
+          "casual": "For social media \u2014 punchy, funny, uses memes and pop culture references",
+          "urgent": "For tax deadline reminders \u2014 direct, action-oriented, creates urgency without panic",
+          "empathetic": "For onboarding and support \u2014 patient, celebrates progress, never judgmental"
+        },
+        "do_say": [
+          "You've got better things to do than bookkeeping",
+          "Save hours. Save money. Sleep better.",
+          "Tax simplified. Life simplified.",
+          "Your finances, finally under control"
+        ],
+        "dont_say": [
+          "Audit",
+          "You're doing it wrong",
+          "Penalty",
+          "Complicated process",
+          "Enterprise-grade"
+        ],
+        "vocabulary": {
+          "preferred_terms": [
+            "Smart bookkeeping",
+            "Expense tracking",
+            "Tax-ready",
+            "Financial clarity",
+            "Time-saving"
+          ],
+          "avoid_terms": [
+            "ERM",
+            "Compliance framework",
+            "GAAP",
+            "Depreciation schedule",
+            "Reconciliation"
+          ]
+        }
+      },
+      "visual_identity": {
+        "color_palette": {
+          "primary": [
+            "#1565C0",
+            "#0D47A1"
+          ],
+          "secondary": [
+            "#00ACC1",
+            "#00838F"
+          ],
+          "accent": [
+            "#FF6F00",
+            "#E65100"
+          ]
+        },
+        "typography": {
+          "headings": "DM Sans Bold, sans-serif",
+          "body": "DM Sans Regular, sans-serif"
+        },
+        "logo_usage": "Flow icon (three ascending lines) should always point upward-right. Clear space equals the height of the icon. Blue on white, white on blue backgrounds.",
+        "imagery_style": "Clean, organized desk setups. Real freelancers in their natural workspaces. Bright, airy photography with pops of blue and teal. Avoid cluttered finance imagery.",
+        "design_principles": [
+          "Clean and minimal",
+          "Data-rich but uncluttered",
+          "Mobile-first",
+          "Accessible typography"
+        ]
+      },
+      "client_id": "client-finflow-accounting-demo",
+      "created_at": "2026-06-06T21:58:04Z",
+      "updated_at": "2026-06-08T23:34:14Z",
+      "status": "active",
+      "validated_assets": [],
+      "intake_data": {
+        "submitted_at": "2026-06-06T21:58:04Z",
+        "source": "multi_tenant_setup"
+      },
+      "campaigns": [
+        {
+          "campaign_id": "c4f7b7c1-3252-4f54-846b-40c006936fba",
+          "name": "Tax Season Prep",
+          "status": "planning",
+          "start_date": "",
+          "end_date": "",
+          "channels": [],
+          "objectives": [],
+          "budget": 0,
+          "current_roas": 0,
+          "assets": [],
+          "kpis": {
+            "impressions": 0,
+            "clicks": 0,
+            "conversions": 0,
+            "spend": 0
+          }
+        }
+      ]
+    },
+    "client-demo-brand-1780961911": {
+      "client_id": "client-demo-brand-1780961911",
+      "client_name": "demo-brand",
+      "status": "active",
+      "created_at": "2026-06-08T23:38:31Z",
+      "updated_at": "2026-06-08T23:38:31Z",
+      "brand_guidelines": {
+        "mission": "A premium organic skincare company focused on sustainability and natural ingredients. Target audience: health-conscious women 25-45.",
+        "key_messages": []
+      },
+      "tone_of_voice": {
+        "do_say": [],
+        "dont_say": [],
+        "vocabulary": {
+          "preferred_terms": [],
+          "avoid_terms": []
+        }
+      },
+      "visual_identity": {
+        "color_palette": {
+          "primary": [],
+          "secondary": [],
+          "accent": []
+        },
+        "typography": {}
+      },
+      "validated_assets": [],
+      "campaigns": [],
+      "intake_data": {
+        "submitted_at": "2026-06-08T23:38:31Z",
+        "source": "dashboard_intake_form",
+        "raw_data": {
+          "client_name": "demo-brand",
+          "brand_guidelines": "A premium organic skincare company focused on sustainability and natural ingredients. Target audience: health-conscious women 25-45.",
+          "kpi": "brand_awareness"
+        }
+      }
+    },
+    "client-purebloom-skincare-1780961852": {
+      "client_id": "client-purebloom-skincare-1780961852",
+      "client_name": "PureBloom Skincare",
+      "status": "active",
+      "created_at": "2026-06-08T23:38:31Z",
+      "updated_at": "2026-06-08T23:40:30Z",
+      "brand_guidelines": {
+        "mission": "A premium organic skincare company, sustainability is our core. Natural ingredients, eco-friendly packaging. Target: health-conscious women 25-45 who care about what they put on their skin.",
+        "key_messages": []
+      },
+      "tone_of_voice": {
+        "do_say": [],
+        "dont_say": [],
+        "vocabulary": {
+          "preferred_terms": [],
+          "avoid_terms": []
+        }
+      },
+      "visual_identity": {
+        "color_palette": {
+          "primary": [],
+          "secondary": [],
+          "accent": []
+        },
+        "typography": {}
+      },
+      "validated_assets": [],
+      "campaigns": [],
+      "intake_data": {
+        "submitted_at": "2026-06-08T23:38:31Z",
+        "source": "dashboard_intake_form",
+        "raw_data": {
+          "client_name": "PureBloom Skincare",
+          "brand_guidelines": "A premium organic skincare company, sustainability is our core. Natural ingredients, eco-friendly packaging. Target: health-conscious women 25-45 who care about what they put on their skin.",
+          "kpi": "brand_awareness"
+        }
+      }
+    }
+  },
+  "validation_log": [
+    {
+      "timestamp": "2026-06-05T03:18:30Z",
+      "asset_id": "9d970f71-7814-4130-818e-cc0517964f7c",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Launch Post - Instagram",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-05T03:18:30Z",
+      "asset_id": "188684c5-638f-4bdb-a072-58d3afc7f256",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Ad Copy - V1 (SHOULD FAIL)",
+      "asset_type": "copy",
+      "action": "REJECTED",
+      "validator": "agent-brand-custodian",
+      "notes": "FAILED QUALITY GATE: TONE VIOLATION: Content contains \"Revolutionary\" which is in the dont_say list; TONE VIOLATION: Content contains \"Game-changing\" which is in the dont_say list; TONE VIOLATION: Content contains \"Disruptive\" which is in the dont_say list; TONE VIOLATION: Content contains \"You'll need a data science team\" which is in the dont_say list; VOCABULARY VIOLATION: Avoid term \"Neural network\" found in content; VOCABULARY VIOLATION: Avoid term \"Deep learning\" found in content; VOCABULARY VIOLATION: Avoid term \"Transformer model\" found in content; VOCABULARY VIOLATION: Avoid term \"API integration\" found in content",
+      "details": {
+        "issues": [
+          "TONE VIOLATION: Content contains \"Revolutionary\" which is in the dont_say list",
+          "TONE VIOLATION: Content contains \"Game-changing\" which is in the dont_say list",
+          "TONE VIOLATION: Content contains \"Disruptive\" which is in the dont_say list",
+          "TONE VIOLATION: Content contains \"You'll need a data science team\" which is in the dont_say list",
+          "VOCABULARY VIOLATION: Avoid term \"Neural network\" found in content",
+          "VOCABULARY VIOLATION: Avoid term \"Deep learning\" found in content",
+          "VOCABULARY VIOLATION: Avoid term \"Transformer model\" found in content",
+          "VOCABULARY VIOLATION: Avoid term \"API integration\" found in content"
+        ],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T20:57:18Z",
+      "asset_id": "9afcc571-a037-482b-ac96-4a49d3586d69",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions - LinkedIn Thought Leadership Post",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"Your business data stays yours, always\" is reflected in the asset",
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T20:57:27Z",
+      "asset_id": "377e8fe1-69c6-463c-bca2-3d93f066616f",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions - Aggressive Sales Page",
+      "asset_type": "copy",
+      "action": "REJECTED",
+      "validator": "agent-brand-custodian",
+      "notes": "FAILED QUALITY GATE: TONE VIOLATION: Content contains \"Revolutionary\" which is in the dont_say list; TONE VIOLATION: Content contains \"Game-changing\" which is in the dont_say list; TONE VIOLATION: Content contains \"Disruptive\" which is in the dont_say list; TONE VIOLATION: Content contains \"You'll need a data science team\" which is in the dont_say list; VOCABULARY VIOLATION: Avoid term \"Neural network\" found in content; VOCABULARY VIOLATION: Avoid term \"Deep learning\" found in content; VOCABULARY VIOLATION: Avoid term \"Transformer model\" found in content; VOCABULARY VIOLATION: Avoid term \"API integration\" found in content",
+      "details": {
+        "issues": [
+          "TONE VIOLATION: Content contains \"Revolutionary\" which is in the dont_say list",
+          "TONE VIOLATION: Content contains \"Game-changing\" which is in the dont_say list",
+          "TONE VIOLATION: Content contains \"Disruptive\" which is in the dont_say list",
+          "TONE VIOLATION: Content contains \"You'll need a data science team\" which is in the dont_say list",
+          "VOCABULARY VIOLATION: Avoid term \"Neural network\" found in content",
+          "VOCABULARY VIOLATION: Avoid term \"Deep learning\" found in content",
+          "VOCABULARY VIOLATION: Avoid term \"Transformer model\" found in content",
+          "VOCABULARY VIOLATION: Avoid term \"API integration\" found in content"
+        ],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "ff65cc76-84a0-4c75-9011-941e9395d7a3",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "d643a5bd-e6c2-492d-b4bf-cc8a2101135c",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "bfaa0c45-60c2-4e27-8a4b-edd8ec876089",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "asset_type": "email",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "540b4115-2995-46f5-8ba8-bffb8729d96e",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "asset_type": "landing",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"Your business data stays yours, always\" is reflected in the asset",
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "3c0d1c46-9ad0-4060-8040-a58ac70f9d91",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "asset_type": "ad",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "05405f41-d869-4b20-98f1-13df7e086bc8",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "asset_type": "video",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "6354485a-b884-4cd0-a6cb-72e1c579d15c",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:55:50Z",
+      "asset_id": "c9d210f4-32e4-42cc-aba2-6bbd831b24cc",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "85a9a1b6-e198-42c9-8cd3-cda9992b3cdb",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "da80530b-3a62-40ae-ad7c-dafe96db518f",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "9b8093fc-ea44-4624-ab32-7dbd7cae71d8",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "asset_type": "email",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "4e77fceb-22d4-4beb-9661-0e4f64ba100d",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "asset_type": "landing",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"Your business data stays yours, always\" is reflected in the asset",
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "11725fa4-66dc-4189-bfee-eea4b0df91d4",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "asset_type": "ad",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "a848ba11-ed76-464f-b803-fe8d8cee0f98",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "asset_type": "video",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "707161aa-3e9c-4236-97dc-8943deeaad56",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:56:37Z",
+      "asset_id": "bbfb0f31-4660-4fbf-8c52-ce715050e5db",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:34:45Z",
+      "asset_id": "1893c9e4-75db-4f18-9c8c-0fe2efda3081",
+      "client_id": "client-greenleaf-organics-demo",
+      "asset_title": "NovaTech Launch Post - Instagram",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Know your farmer. Know your food.\" from do_say recommendations; TONE SUGGESTION: Content could include \"Fresh from the farm to your table\" from do_say recommendations; TONE SUGGESTION: Content could include \"Every bite makes a difference\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"Know your farmer. Know your food.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Fresh from the farm to your table\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Every bite makes a difference\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Healthy choices made simple\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Farm-fresh\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Seasonal produce\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Sustainable sourcing\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Organic essentials\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Responsibly grown\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:44Z",
+      "asset_id": "9e426e2c-1d98-4981-9f67-8d0a748149c5",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel (5 slides)",
+      "asset_type": "social_instagram",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:44Z",
+      "asset_id": "889d1438-01cc-4898-ac01-ed52973cda17",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 AI That Works For You (LinkedIn Thought Leadership)",
+      "asset_type": "social_linkedin",
+      "action": "APPROVED",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE - All brand checks passed",
+      "details": {
+        "issues": [],
+        "warnings": [],
+        "passes": [
+          "KEY MESSAGE: \"Your business data stays yours, always\" is reflected in the asset",
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:52Z",
+      "asset_id": "ed2b1caa-f13b-42d2-a332-c3cf46f1dc24",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "asset_type": "ad",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:53Z",
+      "asset_id": "3471c0a8-bcd2-4f09-bd0c-dc88f93bd9e4",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "asset_type": "email",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:53Z",
+      "asset_id": "4f3d194c-809f-4b3b-9a0b-b56ac448c9db",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:53Z",
+      "asset_id": "d537ae41-0b06-49bf-879d-1b06ee94f711",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:53Z",
+      "asset_id": "9d0ff435-8cc6-4f1f-a62a-26b5a933d388",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "asset_type": "landing",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"Your business data stays yours, always\" is reflected in the asset",
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:53Z",
+      "asset_id": "60e728f7-1636-4cf9-96b8-52ccce7fd686",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:35:53Z",
+      "asset_id": "95684606-dab7-4d30-bd06-c11a26a1e139",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "asset_type": "video",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "90db15c2-5499-4961-8fc1-7ff881d78524",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Paid Social Ad (Urgent / Limited Time)",
+      "asset_type": "ad",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "6aa36e35-5e42-4861-9476-62e865c73a7e",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Welcome Email Series (Email 1 of 3)",
+      "asset_type": "email",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "5e9f4420-3941-49f3-84d5-c6bb16446600",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 LinkedIn Banner Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations; TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Your data. Your control. Your insights.\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "38ec78d3-68d0-4a45-a705-151282986482",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Story Graphic",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"Start small, scale smart\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"AI assistant\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Smart automation\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"Business intelligence\" not found in content",
+          "VOCABULARY SUGGESTION: Preferred term \"No-code AI\" not found in content"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "5282d614-3ef0-4a57-ba30-cd42fc6f1b76",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Landing Page (Hero + Features Section)",
+      "asset_type": "landing",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"Your business data stays yours, always\" is reflected in the asset",
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "03dc2000-b086-43d6-ae7d-3e185de73997",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Instagram Carousel",
+      "asset_type": "social",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "VOCABULARY SUGGESTION: Preferred term \"Data insights\" not found in content"
+        ],
+        "passes": [
+          "KEY MESSAGE: \"From setup to ROI in under 30 days\" is reflected in the asset",
+          "KEY MESSAGE: \"Enterprise AI at small business prices\" is reflected in the asset"
+        ]
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    },
+    {
+      "timestamp": "2026-06-08T23:36:53Z",
+      "asset_id": "aa121690-ab2a-48c6-91ba-653a01419789",
+      "client_id": "client-novatech-solutions-demo",
+      "asset_title": "NovaTech Solutions \u2014 Brand Video: 'AI That Works For You'",
+      "asset_type": "video",
+      "action": "PASSED_WITH_WARNINGS",
+      "validator": "agent-brand-custodian",
+      "notes": "PASSED QUALITY GATE with recommendations: TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations; TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations",
+      "details": {
+        "issues": [],
+        "warnings": [
+          "TONE SUGGESTION: Content could include \"AI that works for you, not the other way around\" from do_say recommendations",
+          "TONE SUGGESTION: Content could include \"We handle the complexity so you don't have to\" from do_say recommendations"
+        ],
+        "passes": []
+      },
+      "vector_db_references": [
+        "brand_guidelines.key_messages",
+        "tone_of_voice.do_say",
+        "tone_of_voice.dont_say",
+        "tone_of_voice.vocabulary"
+      ]
+    }
+  ],
+  "index": {
+    "by_status": {
+      "intake": [],
+      "active": [
+        "client-novatech-solutions-demo",
+        "client-greenleaf-organics-demo",
+        "client-finflow-accounting-demo",
+        "client-demo-brand-1780961911",
+        "client-purebloom-skincare-1780961852"
+      ],
+      "archived": []
+    },
+    "by_agent": {}
+  }
+}
